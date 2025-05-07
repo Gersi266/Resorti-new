@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "title": "Resort Activities",
+    "subtitle": "Discover a world of relaxation, adventure, and entertainment at Panorama Resort",
+    "image": "/images/activities-hero.png"
+  },
+  "activitiesSection": {
+    "title": "Explore Our Activities",
+    "subtitle": "From relaxation to adventure, we offer a variety of activities to make your stay memorable.",
+    "activities": [
+      {
+        "id": 1,
+        "name": "Swimming Pool",
+        "description": "Enjoy our refreshing swimming pool with stunning views of the surrounding landscape.",
+        "longDescription": "Our expansive swimming pool is the centerpiece of our resort, offering a refreshing escape from the summer heat. Surrounded by comfortable loungers and umbrellas, it's the perfect place to relax and soak up the sun. The pool area features a separate children's section, making it safe and enjoyable for guests of all ages. Our attentive pool staff is always on hand to provide fresh towels and assist with any requests. In the evening, the pool is beautifully illuminated, creating a magical atmosphere for a nighttime swim.",
+        "image": "/images/activity-1.png",
+        "additionalImages": ["/tropical-infinity-pool.png", "/images/activity-1.png", "/tropical-resort-poolside.png"],
+        "icon": "M21 9v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9m18 0a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2m18 0v2H3V9M7 14h.01M17 14h.01",
+        "hours": "7:00 AM - 10:00 PM",
+        "location": "Main Resort Area",
+        "price": "Complimentary for guests"
+      },
+      {
+        "id": 2,
+        "name": "Spa & Wellness",
+        "description": "Relax and rejuvenate with our range of spa treatments and wellness activities.",
+        "longDescription": "Our award-winning spa offers a sanctuary of peace and tranquility where you can indulge in a variety of treatments designed to relax, rejuvenate, and restore. From traditional massages to innovative beauty treatments, our skilled therapists use only the finest products to ensure a truly luxurious experience. The spa features private treatment rooms, a steam room, sauna, and a relaxation lounge where you can unwind before or after your treatment. We also offer daily yoga and meditation classes for guests looking to enhance their wellness journey.",
+        "image": "/images/activity-2.png",
+        "additionalImages": ["/images/activity-2.png", "/tropical-infinity-pool.png", "/images/activity-4.png"],
+        "icon": "M21 12c0 4.418-4.03 8-9 8s-9-3.582-9-8M12 4v16M3 9h18",
+        "hours": "9:00 AM - 8:00 PM",
+        "location": "Wellness Wing",
+        "price": "Treatments start at 50€"
+      },
+      {
+        "id": 3,
+        "name": "Fitness Center",
+        "description": "Stay fit during your vacation with our fully equipped fitness center.",
+        "longDescription": "Maintain your fitness routine even while on vacation at our state-of-the-art fitness center. Equipped with the latest cardio and strength training equipment, our gym caters to all fitness levels. Personal trainers are available for one-on-one sessions to help you achieve your fitness goals. The fitness center also features a dedicated area for stretching and free weights. Floor-to-ceiling windows provide natural light and inspiring views of the resort grounds, making your workout session more enjoyable. Complimentary water and towels are provided for your convenience.",
+        "image": "/images/activity-3.png",
+        "additionalImages": ["/images/activity-3.png", "/images/activity-5.png", "/images/activity-1.png"],
+        "icon": "M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3",
+        "hours": "24 hours",
+        "location": "Lower Level",
+        "price": "Complimentary for guests"
+      },
+      {
+        "id": 4,
+        "name": "Fine Dining",
+        "description": "Savor exquisite cuisine prepared by our talented chefs using the freshest local ingredients.",
+        "longDescription": "Experience culinary excellence at our signature restaurant, where our talented chefs create exquisite dishes that blend international techniques with local flavors. We source the freshest ingredients from nearby farms and markets, ensuring that each dish is of the highest quality. The restaurant offers an elegant yet comfortable atmosphere with both indoor and outdoor seating options. Our extensive wine list features selections from renowned vineyards around the world, carefully chosen to complement our menu. For a truly special experience, ask about our chef's table where you can enjoy a personalized tasting menu.",
+        "image": "/images/activity-4.png",
+        "additionalImages": ["/images/activity-4.png", "/images/menu-dinner.jpg", "/images/menu-lunch.jpg"],
+        "icon": "M3 3h18v18H3zM3 9h18M9 21V9",
+        "hours": "Breakfast: 7:00 AM - 10:30 AM, Dinner: 6:30 PM - 10:30 PM",
+        "location": "Main Building, First Floor",
+        "price": "À la carte"
+      },
+      {
+        "id": 5,
+        "name": "Outdoor Activities",
+        "description": "Participate in various outdoor activities including yoga, hiking, and more.",
+        "longDescription": "Embrace the natural beauty surrounding our resort with our range of outdoor activities. Join our morning yoga sessions on the beach as the sun rises, providing a peaceful start to your day. For the more adventurous, we offer guided hiking tours through scenic trails that showcase the region's diverse flora and fauna. Water enthusiasts can enjoy kayaking, paddleboarding, or snorkeling in our crystal-clear waters. Our experienced guides ensure that all activities are safe and suitable for different skill levels. Equipment rental is available for all activities.",
+        "image": "/images/activity-5.png",
+        "additionalImages": ["/images/activity-5.png", "/tropical-resort-poolside.png", "/images/activity-3.png"],
+        "icon": "M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3",
+        "hours": "Varies by activity",
+        "location": "Resort Grounds",
+        "price": "Some activities complimentary, others start at 25€"
+      }
+    ]
+  },
+  "bookingLink": "https://www.see-albania.com/hotel/hotel-panorama-spa-elbasan"
+}

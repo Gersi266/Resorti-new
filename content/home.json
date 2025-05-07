@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "/images/hero-1.jpg",
+        "title": "Welcome to Paradise Resort",
+        "subtitle": "Experience luxury and comfort in our scenic mountain retreat"
+      },
+      {
+        "image": "/images/hero-2.jpg",
+        "title": "Relaxation & Adventure",
+        "subtitle": "Discover the perfect balance of relaxation and excitement"
+      },
+      {
+        "image": "/images/hero-3.jpg",
+        "title": "Stunning Accommodations",
+        "subtitle": "Spacious rooms with breathtaking mountain views"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "Welcome to Paradise",
+    "subtitle": "Experience luxury in the mountains",
+    "description": "Nestled in the beautiful mountains of Elbasan, Panorama Resort offers a perfect blend of luxury, comfort, and natural beauty. Our resort is designed to provide you with an unforgettable experience, whether you're looking for a relaxing getaway, a romantic escape, or an adventure-filled vacation. With stunning views, exceptional service, and world-class amenities, we invite you to discover the magic of Panorama Resort.",
+    "image": "/tropical-resort-poolside.png",
+    "button": "Explore More"
+  },
+  "features": {
+    "title": "Resort Features",
+    "subtitle": "Discover what makes our resort special",
+    "items": [
+      {
+        "icon": "🏊",
+        "title": "Swimming Pool",
+        "description": "Enjoy our outdoor swimming pool with stunning mountain views"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Fine Dining",
+        "description": "Savor exquisite cuisine prepared by our talented chefs"
+      },
+      {
+        "icon": "🧖",
+        "title": "Spa & Wellness",
+        "description": "Relax and rejuvenate with our range of spa treatments"
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Our Accommodations",
+    "subtitle": "Luxurious rooms and suites for a comfortable stay",
+    "viewAllText": "View All Rooms",
+    "rooms": [
+      {
+        "id": 1,
+        "name": "Deluxe Mountain View Room",
+        "description": "Spacious room with breathtaking mountain views",
+        "price": "€120",
+        "image": "/images/room-1.png"
+      },
+      {
+        "id": 2,
+        "name": "Executive Suite",
+        "description": "Elegant suite with separate living area",
+        "price": "€180",
+        "image": "/images/room-2.png"
+      },
+      {
+        "id": 3,
+        "name": "Family Room",
+        "description": "Perfect for families with children",
+        "price": "€150",
+        "image": "/images/room-3.png"
+      }
+    ]
+  },
+  "activitiesSection": {
+    "title": "Resort Activities",
+    "subtitle": "Explore the many activities available at our resort",
+    "viewAllText": "View All Activities",
+    "activities": [
+      {
+        "id": 1,
+        "title": "Swimming",
+        "description": "Enjoy our refreshing pool with stunning views",
+        "image": "/images/activity-1.png",
+        "duration": "Open daily",
+        "difficulty": "All levels"
+      },
+      {
+        "id": 2,
+        "title": "Spa & Wellness",
+        "description": "Relax and rejuvenate with our range of treatments",
+        "image": "/images/activity-2.png",
+        "duration": "By appointment",
+        "difficulty": "All levels"
+      },
+      {
+        "id": 3,
+        "title": "Fitness Center",
+        "description": "Stay fit during your vacation",
+        "image": "/images/activity-3.png",
+        "duration": "24/7 access",
+        "difficulty": "All levels"
+      }
+    ]
+  },
+  "menuSection": {
+    "title": "Dining Experience",
+    "subtitle": "Savor exquisite cuisine prepared by our talented chefs",
+    "viewMenuText": "View Full Menu",
+    "categories": [
+      {
+        "name": "Breakfast",
+        "description": "Start your day with our delicious breakfast options",
+        "image": "/images/menu-breakfast.jpg"
+      },
+      {
+        "name": "Lunch",
+        "description": "Enjoy a variety of dishes for your midday meal",
+        "image": "/images/menu-lunch.jpg"
+      },
+      {
+        "name": "Dinner",
+        "description": "Experience fine dining with our evening menu",
+        "image": "/images/menu-dinner.jpg"
+      }
+    ]
+  },
+  "testimonialsSection": {
+    "title": "Guest Testimonials",
+    "subtitle": "What our guests say about their experience",
+    "testimonials": [
+      {
+        "name": "John Smith",
+        "avatar": "/thoughtful-asian-man.png",
+        "rating": 5,
+        "text": "We had an amazing stay at Panorama Resort. The views were breathtaking, the staff was incredibly friendly and attentive, and the food was outstanding."
+      },
+      {
+        "name": "Sarah Johnson",
+        "avatar": "/woman-brown-hair.png",
+        "rating": 5,
+        "text": "The perfect getaway! The room was spacious and comfortable, and the pool area was so relaxing. We'll definitely be coming back."
+      },
+      {
+        "name": "Michael Brown",
+        "avatar": "/diverse-group.png",
+        "rating": 4,
+        "text": "Great resort with excellent amenities. The spa treatments were top-notch, and the mountain views from our room were spectacular."
+      }
+    ]
+  },
+  "ctaSection": {
+    "title": "Ready to Experience Paradise?",
+    "subtitle": "Book your stay now and enjoy our special offers",
+    "buttonText": "Book Now",
+    "buttonLink": "https://www.see-albania.com/hotel/hotel-panorama-spa-elbasan",
+    "backgroundImage": "/tropical-resort-poolside.png"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Dining Experience",
+    "image": "/images/menu-hero.jpg"
+  },
+  "disclaimer": {
+    "text": "Please Note: The photos are illustrative. We do not accept off-menu orders. Please let us know if you have any food allergies!"
+  },
+  "overview": {
+    "title": "Culinary Excellence",
+    "subtitle": "At Paradise Resort, we pride ourselves on offering exceptional dining experiences. Our talented chefs use only the freshest local ingredients to create memorable culinary delights that will satisfy even the most discerning palates.",
+    "features": [
+      {
+        "icon": "layout",
+        "title": "Main Restaurant",
+        "description": "Our main restaurant offers a diverse menu featuring international cuisine and local specialties."
+      },
+      {
+        "icon": "cake",
+        "title": "Beach Bar & Grill",
+        "description": "Enjoy casual dining with ocean views at our beachfront bar and grill."
+      },
+      {
+        "icon": "lightbulb",
+        "title": "Fine Dining",
+        "description": "Experience gourmet cuisine at our signature fine dining restaurant."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "salads",
+      "name": "Salads",
+      "description": "Fresh, crisp salads prepared with locally sourced ingredients."
+    },
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Delicious starters to begin your culinary journey."
+    },
+    {
+      "id": "soup",
+      "name": "Soup",
+      "description": "Hearty and flavorful soups made fresh daily."
+    },
+    {
+      "id": "pasta-risotto",
+      "name": "Pasta & Risotto",
+      "description": "Authentic Italian pasta and creamy risotto dishes."
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "description": "Fresh seafood prepared with Mediterranean influences."
+    },
+    {
+      "id": "meat",
+      "name": "Meat",
+      "description": "Premium cuts of meat prepared to perfection."
+    },
+    {
+      "id": "traditional",
+      "name": "Traditional Cooking",
+      "description": "Local specialties showcasing regional flavors and traditions."
+    },
+    {
+      "id": "specials",
+      "name": "Specials",
+      "description": "Chef's special creations featuring seasonal ingredients and game meats."
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "description": "Authentic wood-fired pizzas with traditional and creative toppings."
+    },
+    {
+      "id": "dessert",
+      "name": "Dessert",
+      "description": "Sweet endings to complete your dining experience."
+    },
+    {
+      "id": "cafeteria",
+      "name": "Cafeteria",
+      "description": "Premium coffee and tea selections."
+    },
+    {
+      "id": "fresh-drinks",
+      "name": "Fresh Drinks",
+      "description": "Refreshing non-alcoholic beverages and fresh juices."
+    },
+    {
+      "id": "beer",
+      "name": "Beer",
+      "description": "Selection of local and international beers."
+    },
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+      "description": "Premium spirits and signature cocktails."
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "description": "Curated selection of local and international wines."
+    }
+  ],
+  "privateDining": {
+    "title": "Private Dining Experience",
+    "description": "For special occasions, we offer exclusive private dining experiences. From romantic dinners on the beach to family celebrations in our private dining room, our team will create a memorable culinary journey tailored to your preferences.",
+    "buttonText": "Inquire Now",
+    "buttonLink": "/contact",
+    "image": "/images/private-dining.jpg"
+  }
+}

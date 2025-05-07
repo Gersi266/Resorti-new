@@ -1,0 +1,161 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "/images/hero-1.jpg",
+        "title": "Mirë se vini në Paradise Resort",
+        "subtitle": "Përjetoni luksin dhe komoditetin në vendpushimin tonë malor"
+      },
+      {
+        "image": "/images/hero-2.jpg",
+        "title": "Relaksim & Aventurë",
+        "subtitle": "Zbuloni ekuilibrin perfekt të relaksimit dhe aventurës"
+      },
+      {
+        "image": "/images/hero-3.jpg",
+        "title": "Akomodime Mbresëlënëse",
+        "subtitle": "Dhoma të gjera me pamje mahnitëse malore"
+      }
+    ]
+  },
+  "welcome": {
+    "title": "Mirë se vini në Paradise",
+    "subtitle": "Përjetoni luksin në male",
+    "description": "I vendosur në malet e bukura të Elbasanit, Panorama Resort ofron një përzierje perfekte të luksit, komoditetit dhe bukurisë natyrore. Resorti ynë është projektuar për t'ju ofruar një përvojë të paharrueshme, qoftë nëse jeni duke kërkuar një pushim relaksues, një arratisje romantike, ose një pushim të mbushur me aventura. Me pamje mahnitëse, shërbim të jashtëzakonshëm dhe komoditete të klasit botëror, ju ftojmë të zbuloni magjinë e Panorama Resort.",
+    "image": "/tropical-resort-poolside.png",
+    "button": "Eksploro Më Shumë"
+  },
+  "features": {
+    "title": "Karakteristikat e Resortit",
+    "subtitle": "Zbuloni çfarë e bën të veçantë resortin tonë",
+    "items": [
+      {
+        "icon": "🏊",
+        "title": "Pishinë",
+        "description": "Shijoni pishinën tonë të jashtme me pamje mahnitëse malore"
+      },
+      {
+        "icon": "🍽️",
+        "title": "Kuzhinë e Sofistikuar",
+        "description": "Shijoni ushqimin e shijshëm të përgatitur nga kuzhinierët tanë të talentuar"
+      },
+      {
+        "icon": "🧖",
+        "title": "Spa & Mirëqenie",
+        "description": "Relaksohuni dhe ringjalluni me gamën tonë të trajtimeve spa"
+      }
+    ]
+  },
+  "roomsSection": {
+    "title": "Akomodimet Tona",
+    "subtitle": "Dhoma dhe suita luksoze për një qëndrim komod",
+    "viewAllText": "Shikoni Të Gjitha Dhomat",
+    "rooms": [
+      {
+        "id": 1,
+        "name": "Dhomë Deluxe me Pamje Malore",
+        "description": "Dhomë e gjerë me pamje mahnitëse malore",
+        "price": "€120",
+        "image": "/images/room-1.png"
+      },
+      {
+        "id": 2,
+        "name": "Suitë Ekzekutive",
+        "description": "Suitë elegante me zonë të ndarë ndenjeje",
+        "price": "€180",
+        "image": "/images/room-2.png"
+      },
+      {
+        "id": 3,
+        "name": "Dhomë Familjare",
+        "description": "Perfekte për familjet me fëmijë",
+        "price": "€150",
+        "image": "/images/room-3.png"
+      }
+    ]
+  },
+  "activitiesSection": {
+    "title": "Aktivitetet e Resortit",
+    "subtitle": "Eksploroni aktivitetet e shumta në dispozicion në resortin tonë",
+    "viewAllText": "Shikoni Të Gjitha Aktivitetet",
+    "activities": [
+      {
+        "id": 1,
+        "title": "Notuesi",
+        "description": "Shijoni pishinën tonë freskuese me pamje mahnitëse",
+        "image": "/images/activity-1.png",
+        "duration": "Hapur çdo ditë",
+        "difficulty": "Të gjitha nivelet"
+      },
+      {
+        "id": 2,
+        "title": "Spa & Mirëqenie",
+        "description": "Relaksohuni dhe ringjalluni me gamën tonë të trajtimeve",
+        "image": "/images/activity-2.png",
+        "duration": "Me rezervim",
+        "difficulty": "Të gjitha nivelet"
+      },
+      {
+        "id": 3,
+        "title": "Qendra Fitnesi",
+        "description": "Qëndroni në formë gjatë pushimeve tuaja",
+        "image": "/images/activity-3.png",
+        "duration": "Akses 24/7",
+        "difficulty": "Të gjitha nivelet"
+      }
+    ]
+  },
+  "menuSection": {
+    "title": "Eksperienca Gastronomike",
+    "subtitle": "Shijoni kuzhinën e shkëlqyer të përgatitur nga kuzhinierët tanë të talentuar",
+    "viewMenuText": "Shiko Menunë e Plotë",
+    "categories": [
+      {
+        "name": "Mëngjesi",
+        "description": "Filloni ditën tuaj me opsionet tona të shijshme të mëngjesit",
+        "image": "/images/menu-breakfast.jpg"
+      },
+      {
+        "name": "Dreka",
+        "description": "Shijoni një shumëllojshmëri pjatash për vaktin tuaj të mesditës",
+        "image": "/images/menu-lunch.jpg"
+      },
+      {
+        "name": "Darka",
+        "description": "Përjetoni darkën fine me menunë tonë të mbrëmjes",
+        "image": "/images/menu-dinner.jpg"
+      }
+    ]
+  },
+  "testimonialsSection": {
+    "title": "Dëshmitë e Mysafirëve",
+    "subtitle": "Çfarë thonë mysafirët tanë për përvojën e tyre",
+    "testimonials": [
+      {
+        "name": "Jon Smithi",
+        "avatar": "/thoughtful-asian-man.png",
+        "rating": 5,
+        "text": "Patëm një qëndrim të mrekullueshëm në Panorama Resort. Pamjet ishin mahnitëse, stafi ishte jashtëzakonisht miqësor dhe i vëmendshëm, dhe ushqimi ishte i shkëlqyer."
+      },
+      {
+        "name": "Sara Xhonson",
+        "avatar": "/woman-brown-hair.png",
+        "rating": 5,
+        "text": "Pushimi perfekt! Dhoma ishte e gjerë dhe komode, dhe zona e pishinës ishte shumë relaksuese. Padyshim që do të kthehemi."
+      },
+      {
+        "name": "Majkëll Braun",
+        "avatar": "/diverse-group.png",
+        "rating": 4,
+        "text": "Resort i mrekullueshëm me komoditete të shkëlqyera. Trajtimet spa ishin të klasit të parë dhe pamjet malore nga dhoma jonë ishin spektakolare."
+      }
+    ]
+  },
+  "ctaSection": {
+    "title": "Gati të Përjetoni Parajsën?",
+    "subtitle": "Rezervoni qëndrimin tuaj tani dhe shijoni ofertat tona speciale",
+    "buttonText": "Rezervo Tani",
+    "buttonLink": "https://www.see-albania.com/hotel/hotel-panorama-spa-elbasan",
+    "backgroundImage": "/tropical-resort-poolside.png"
+  }
+}

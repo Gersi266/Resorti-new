@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Rreth Nesh",
+    "subtitle": "Mësoni më shumë për historinë dhe vizionin tonë",
+    "image": "/images/about-hero.jpg"
+  },
+  "story": {
+    "title": "Historia Jonë",
+    "subtitle": "Një udhëtim pasioni dhe përkushtimi",
+    "description": "Panorama Resort u themelua në vitin 2010 me vizionin për të krijuar një strehë luksoze që përshtatet në mënyrë të përkryer me bukurinë natyrore të maleve të Elbasanit. Ajo që filloi si një lodge e vogël në pronësi të familjes është zhvilluar në një nga resortet kryesore të rajonit, e njohur për shërbimin e jashtëzakonshëm, akomodimet luksoze dhe përvojat e paharrueshme.\n\nUdhëtimi ynë ka qenë një rritje dhe përmirësim i vazhdueshëm, duke mbajtur gjithmonë në qendër të gjithçkaje që bëjmë, komoditetin dhe kënaqësinë e mysafirëve tanë. Kemi zgjeruar ambientet tona, përmirësuar shërbimet dhe rafinuar ofertat tona, ndërsa kemi ruajtur qasjen e ngrohtë dhe të personalizuar që ka qenë tipari ynë dallues që nga dita e parë.",
+    "image": "/images/about-story.jpg"
+  },
+  "mission": {
+    "title": "Misioni Ynë",
+    "description": "Në Panorama Resort, misioni ynë është të ofrojmë një përvojë të pakrahasueshme mikpritjeje që kremton bukurinë natyrore të Shqipërisë, duke ofruar njëkohësisht komoditet dhe shërbim të klasit botëror. Ne përpiqemi të krijojmë momente kuptimplote që kthehen në kujtime të qëndrueshme për mysafirët tanë dhe të jemi një forcë pozitive në komunitetin dhe mjedisin tonë."
+  },
+  "values": {
+    "title": "Vlerat Tona",
+    "items": [
+      {
+        "title": "Ekselenca",
+        "description": "Ne jemi të përkushtuar për ekselencë në çdo aspekt të shërbimit tonë, nga cilësia e akomodimeve tona deri tek vëmendja e stafit tonë."
+      },
+      {
+        "title": "Autenticiteti",
+        "description": "Ne kremtojmë dhe prezantojmë kulturën e pasur dhe bukurinë natyrore të Shqipërisë, duke ofruar përvoja të vërteta lokale."
+      },
+      {
+        "title": "Qëndrueshmëria",
+        "description": "Ne jemi të përkushtuar ndaj praktikave të qëndrueshme që mbrojnë dhe ruajnë mjedisin për brezat e ardhshëm."
+      },
+      {
+        "title": "Komuniteti",
+        "description": "Ne vlerësojmë rolin tonë në komunitetin lokal dhe përpiqemi të bëjmë një ndikim pozitiv përmes punësimit, burimeve dhe aktiviteteve komunitare."
+      }
+    ]
+  },
+  "team": {
+    "title": "Ekipi Ynë",
+    "subtitle": "Njihuni me profesionistët e përkushtuar pas Panorama Resort",
+    "members": [
+      {
+        "name": "Elena Hoxha",
+        "position": "Menaxhere e Përgjithshme",
+        "image": "/placeholder.svg?height=400&width=400&query=professional woman hotel manager"
+      },
+      {
+        "name": "Artan Berisha",
+        "position": "Kuzhinier Kryesor",
+        "image": "/placeholder.svg?height=400&width=400&query=professional male chef"
+      },
+      {
+        "name": "Mira Krasniqi",
+        "position": "Drejtore e Spa",
+        "image": "/placeholder.svg?height=400&width=400&query=spa director professional woman"
+      },
+      {
+        "name": "Dritan Rama",
+        "position": "Koordinator i Aktiviteteve",
+        "image": "/placeholder.svg?height=400&width=400&query=outdoor activities coordinator"
+      }
+    ]
+  },
+  "location": {
+    "title": "Vendndodhja Jonë",
+    "subtitle": "Zbuloni bukurinë e Elbasanit",
+    "description": "I vendosur në malet piktoreske pranë Elbasanit, Panorama Resort ofron një përzierje perfekte të aksesueshmërisë dhe izolimit. Vetëm një udhëtim i shkurtër nga qendra e qytetit të Elbasanit dhe afërsisht një orë nga Aeroporti Ndërkombëtar i Tiranës, resorti ynë është i lehtë për t'u arritur, por ndjehet shumë larg nga zhurma dhe zëri i jetës së përditshme.\n\nVendndodhja jonë ofron bazën ideale për të eksploruar thesaret natyrore dhe kulturore të Shqipërisë qendrore. Nga kështjellat historike dhe rrënojat e lashta deri te shtigjet mahnitëse të ecjes dhe liqenet e paprekura, ka shumë atraksione për të zbuluar gjatë qëndrimit tuaj me ne."
+  }
+}
