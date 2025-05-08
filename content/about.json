@@ -5,33 +5,32 @@
     "image": "/images/about-hero.jpg"
   },
   "story": {
-    "title": "Our Story",
-    "subtitle": "A journey of passion and dedication",
-    "description": "Panorama Resort was founded in 2010 with a vision to create a luxury retreat that seamlessly blends with the natural beauty of the Elbasan mountains. What started as a small family-owned lodge has evolved into one of the region's premier resorts, known for exceptional service, luxurious accommodations, and unforgettable experiences.\n\nOur journey has been one of continuous growth and improvement, always keeping our guests' comfort and satisfaction at the heart of everything we do. We've expanded our facilities, enhanced our services, and refined our offerings, all while preserving the warm, personalized approach that has been our hallmark since day one.",
-    "image": "/images/about-story.jpg"
+    "title": "A Place Where Nature Meets Comfort",
+    "subtitle": "",
+    "description": "Panorama Resort was born from a simple idea — to create a peaceful retreat where guests can unwind, reconnect with nature, and enjoy true Albanian hospitality.\n\nNestled in the calm surroundings of Elbasan, our resort offers the perfect balance of comfort and outdoor experience. Over the years, it has grown from a local hideaway into a destination loved for its authentic charm.\n\nGuests can enjoy delicious traditional cuisine at our restaurant, relax in both summer and winter pools, or embrace nature through activities like horse riding and walking trails — all surrounded by fresh mountain air and greenery.\n\nPanorama Resort remains a family-run place rooted in warmth, nature, and culture. We're proud to welcome every guest not just as a visitor, but as part of our story."
   },
   "mission": {
     "title": "Our Mission",
     "description": "At Panorama Resort, our mission is to provide an unparalleled hospitality experience that celebrates the natural beauty of Albania while offering world-class comfort and service. We strive to create meaningful moments that turn into lasting memories for our guests, and to be a positive force in our community and environment."
   },
   "values": {
-    "title": "Our Values",
+    "title": "What Guides Us at Panorama Resort",
+    "subtitle": "Our values shape everything we do — from the way we welcome guests to how we care for our surroundings. At Panorama Resort, we believe in offering not just a stay, but a meaningful experience.",
     "items": [
       {
-        "title": "Excellence",
-        "description": "We are committed to excellence in every aspect of our service, from the quality of our accommodations to the attentiveness of our staff."
+        "title": "🏆 Authenticity",
+        "description": "We stay true to our roots, offering real Albanian hospitality, traditional flavors, and an atmosphere that reflects the local culture.",
+        "icon": "star"
       },
       {
-        "title": "Authenticity",
-        "description": "We celebrate and showcase the rich culture and natural beauty of Albania, offering genuine local experiences."
+        "title": "🫱‍🫲 Hospitality",
+        "description": "Every guest is welcomed like family. We take pride in creating a warm, friendly, and relaxed environment that feels like home.",
+        "icon": "heart"
       },
       {
-        "title": "Sustainability",
-        "description": "We are dedicated to sustainable practices that protect and preserve the environment for future generations."
-      },
-      {
-        "title": "Community",
-        "description": "We value our role in the local community and strive to make a positive impact through employment, sourcing, and outreach."
+        "title": "🌱 Harmony with Nature",
+        "description": "We respect and preserve the beauty that surrounds us, encouraging slow, conscious travel and sustainable practices for future generations.",
+        "icon": "leaf"
       }
     ]
   },

@@ -1,9 +1,7 @@
 {
-  "hero": {
-    "title": "Luxurious Accommodations",
-    "subtitle": "Experience comfort and luxury in our carefully designed rooms with premium amenities and facilities",
-    "image": "/images/rooms-hero.jpg"
-  },
+  "title": "Comfort That Feels Like Home",
+  "subtitle": "Enjoy relaxing, thoughtfully designed rooms with all the essentials for a peaceful and pleasant stay — where comfort, calm, and nature come together.",
+  "heroImage": "/images/room-1.png",
   "roomsSection": {
     "title": "Our Rooms",
     "subtitle": "Choose from our selection of beautifully designed rooms, each offering a unique experience with the perfect blend of comfort, luxury, and style.",
@@ -111,34 +109,6 @@
         ]
       }
     ]
-  },
-  "additionalInfo": {
-    "title": "Additional Information",
-    "subtitle": "Learn more about our accessibility features, safety measures, and languages spoken by our staff.",
-    "categories": [
-      {
-        "title": "Property Accessibility",
-        "icon": "users",
-        "items": ["Wheelchair accessible"]
-      },
-      {
-        "title": "Safety & Security",
-        "icon": "check",
-        "items": ["Fire extinguishers", "Security alarm", "24-hour security", "Card access"]
-      },
-      {
-        "title": "Languages Spoken",
-        "icon": "tv",
-        "items": ["English", "Italian", "Albanian"]
-      }
-    ]
-  },
-  "cta": {
-    "title": "Ready to Experience Paradise?",
-    "subtitle": "Book your stay now and enjoy our special offers. Contact our reservation team for personalized assistance.",
-    "buttonText": "Book Your Stay",
-    "buttonLink": "https://www.see-albania.com/hotel/hotel-panorama-spa-elbasan",
-    "image": "/images/cta-room.jpg"
   },
   "checkTimes": {
     "checkIn": "12:00",

@@ -1,64 +1,51 @@
 "use client"
-
-import { useState, useEffect } from "react"
 import Link from "next/link"
 import SafeImage from "./safe-image"
-import { loadContent } from "@/lib/content-loader"
 import { useLanguage } from "@/contexts/language-context"
+import { usePageContent } from "@/hooks/use-page-content"
 
 export default function FeaturedRooms() {
-  const [content, setContent] = useState<any>(null)
-  const [loading, setLoading] = useState(true)
   const { language } = useLanguage()
+  const { content, loading, error } = usePageContent("rooms")
 
-  useEffect(() => {
-    async function fetchContent() {
-      setLoading(true)
-      try {
-        const roomsContent = await loadContent("rooms", language)
-        setContent(roomsContent)
-      } catch (error) {
-        console.error("Error fetching rooms content:", error)
-        // Set fallback content if there's an error
-        setContent({
-          rooms: [
-            {
-              id: 1,
-              name: "Single Room",
-              description: "Perfect for solo travelers",
-              price: 60,
-              mainImage: "/images/room-1.png",
-            },
-            {
-              id: 2,
-              name: "Double Room",
-              description: "Ideal for couples",
-              price: 67,
-              mainImage: "/images/room-2.png",
-            },
-            {
-              id: 3,
-              name: "Family Room",
-              description: "Spacious room for families",
-              price: 80,
-              mainImage: "/images/room-3.png",
-            },
-          ],
-        })
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchContent()
-  }, [language])
-
-  if (loading || !content || !content.rooms || content.rooms.length === 0) {
-    return null
+  // Fallback content in case of error or while loading
+  const fallbackContent = {
+    roomsSection: {
+      rooms: [
+        {
+          id: 1,
+          name: language === "al" ? "Dhomë Teke" : "Single Room",
+          description: language === "al" ? "Perfekte për udhëtarët e vetëm" : "Perfect for solo travelers",
+          price: 60,
+          image: "/images/room-1.png",
+        },
+        {
+          id: 2,
+          name: language === "al" ? "Dhomë Dyshe" : "Double Room",
+          description: language === "al" ? "Ideale për çifte" : "Ideal for couples",
+          price: 67,
+          image: "/images/room-2.png",
+        },
+        {
+          id: 3,
+          name: language === "al" ? "Dhomë Familjare" : "Family Room",
+          description: language === "al" ? "Dhomë e gjerë për familje" : "Spacious room for families",
+          price: 80,
+          image: "/images/room-3.png",
+        },
+      ],
+    },
   }
 
+  // Use fallback content if there's an error or we're still loading
+  const roomsContent = loading || error ? fallbackContent : content
+
   // Only show the first 3 rooms
-  const featuredRooms = content.rooms.slice(0, 3)
+  const featuredRooms = roomsContent?.roomsSection?.rooms?.slice(0, 3) || []
+
+  if (featuredRooms.length === 0) {
+    return null
+  }
 
   return (
     <section className="py-16 px-4 bg-[#FFF9FB]">
@@ -95,14 +82,14 @@ export default function FeaturedRooms() {
           </div>
 
           {/* Three Rooms - Remaining Cells */}
-          {featuredRooms.map((room: any) => (
+          {featuredRooms.map((room) => (
             <div
               key={room.id}
               className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#F8BBD0]"
             >
               <div className="relative h-64">
                 <SafeImage
-                  src={room.mainImage}
+                  src={room.image || room.mainImage}
                   alt={room.name}
                   fill
                   className="object-cover"

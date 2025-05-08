@@ -5,33 +5,32 @@
     "image": "/images/about-hero.jpg"
   },
   "story": {
-    "title": "Historia Jonë",
-    "subtitle": "Një udhëtim pasioni dhe përkushtimi",
-    "description": "Panorama Resort u themelua në vitin 2010 me vizionin për të krijuar një strehë luksoze që përshtatet në mënyrë të përkryer me bukurinë natyrore të maleve të Elbasanit. Ajo që filloi si një lodge e vogël në pronësi të familjes është zhvilluar në një nga resortet kryesore të rajonit, e njohur për shërbimin e jashtëzakonshëm, akomodimet luksoze dhe përvojat e paharrueshme.\n\nUdhëtimi ynë ka qenë një rritje dhe përmirësim i vazhdueshëm, duke mbajtur gjithmonë në qendër të gjithçkaje që bëjmë, komoditetin dhe kënaqësinë e mysafirëve tanë. Kemi zgjeruar ambientet tona, përmirësuar shërbimet dhe rafinuar ofertat tona, ndërsa kemi ruajtur qasjen e ngrohtë dhe të personalizuar që ka qenë tipari ynë dallues që nga dita e parë.",
-    "image": "/images/about-story.jpg"
+    "title": "Një Vend Ku Natyra Takon Komoditetin",
+    "subtitle": "",
+    "description": "Panorama Resort lindi nga një ide e thjeshtë — për të krijuar një strehë paqësore ku mysafirët mund të çlodhen, të rilidhën me natyrën dhe të shijojnë mikpritjen e vërtetë shqiptare.\n\nI vendosur në rrethinat e qeta të Elbasanit, resorti ynë ofron ekuilibrin perfekt midis komoditetit dhe përvojës në natyrë. Ndër vite, ai është rritur nga një strehë lokale në një destinacion të dashur për sharmin e tij autentik.\n\nMysafirët mund të shijojnë kuzhinën tradicionale të shijshme në restorantin tonë, të relaksohen në pishinat e verës dhe dimrit, ose të përqafojnë natyrën përmes aktiviteteve si kalërimi dhe shtigjet e ecjes — të gjitha të rrethuar nga ajri i freskët malor dhe gjelbërimi.\n\nPanorama Resort mbetet një vend i drejtuar nga familja, i rrënjosur në ngrohtësi, natyrë dhe kulturë. Ne jemi krenarë të mirëpresim çdo mysafir jo vetëm si vizitor, por si pjesë e historisë sonë."
   },
   "mission": {
     "title": "Misioni Ynë",
     "description": "Në Panorama Resort, misioni ynë është të ofrojmë një përvojë të pakrahasueshme mikpritjeje që kremton bukurinë natyrore të Shqipërisë, duke ofruar njëkohësisht komoditet dhe shërbim të klasit botëror. Ne përpiqemi të krijojmë momente kuptimplote që kthehen në kujtime të qëndrueshme për mysafirët tanë dhe të jemi një forcë pozitive në komunitetin dhe mjedisin tonë."
   },
   "values": {
-    "title": "Vlerat Tona",
+    "title": "Çfarë Na Udhëheq në Panorama Resort",
+    "subtitle": "Vlerat tona formësojnë gjithçka që bëjmë — nga mënyra se si mirëpresim mysafirët deri te mënyra se si kujdesemi për mjedisin tonë. Në Panorama Resort, ne besojmë në ofrimin jo vetëm të një qëndrimi, por të një përvoje kuptimplote.",
     "items": [
       {
-        "title": "Ekselenca",
-        "description": "Ne jemi të përkushtuar për ekselencë në çdo aspekt të shërbimit tonë, nga cilësia e akomodimeve tona deri tek vëmendja e stafit tonë."
+        "title": "🏆 Autenticiteti",
+        "description": "Ne qëndrojmë besnikë ndaj rrënjëve tona, duke ofruar mikpritje të vërtetë shqiptare, shije tradicionale dhe një atmosferë që pasqyron kulturën lokale.",
+        "icon": "star"
       },
       {
-        "title": "Autenticiteti",
-        "description": "Ne kremtojmë dhe prezantojmë kulturën e pasur dhe bukurinë natyrore të Shqipërisë, duke ofruar përvoja të vërteta lokale."
+        "title": "🫱‍🫲 Mikpritja",
+        "description": "Çdo mysafir mirëpritet si familje. Ne krenohemi me krijimin e një mjedisi të ngrohtë, miqësor dhe të relaksuar që ndihet si në shtëpi.",
+        "icon": "heart"
       },
       {
-        "title": "Qëndrueshmëria",
-        "description": "Ne jemi të përkushtuar ndaj praktikave të qëndrueshme që mbrojnë dhe ruajnë mjedisin për brezat e ardhshëm."
-      },
-      {
-        "title": "Komuniteti",
-        "description": "Ne vlerësojmë rolin tonë në komunitetin lokal dhe përpiqemi të bëjmë një ndikim pozitiv përmes punësimit, burimeve dhe aktiviteteve komunitare."
+        "title": "🌱 Harmonia me Natyrën",
+        "description": "Ne respektojmë dhe ruajmë bukurinë që na rrethon, duke inkurajuar udhëtimin e ngadaltë, të ndërgjegjshëm dhe praktikat e qëndrueshme për brezat e ardhshëm.",
+        "icon": "leaf"
       }
     ]
   },

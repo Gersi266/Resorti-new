@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const roomsData = [
     {
       id: 1,
-      name: "Deluxe Ocean View",
+      name: "Deluxe Double Room with Balcony",
       description:
         "Experience luxury with breathtaking ocean views from your private balcony. Our Deluxe Ocean View rooms offer the perfect blend of comfort and elegance. Wake up to stunning sunrises and fall asleep to the soothing sound of waves. Each room is meticulously designed with your comfort in mind, featuring premium furnishings and a serene color palette inspired by the ocean.",
       price: 299,

@@ -3,26 +3,24 @@
     "slides": [
       {
         "image": "/images/hero-1.jpg",
-        "title": "Mirë se vini në Paradise Resort",
-        "subtitle": "Përjetoni luksin dhe komoditetin në vendpushimin tonë malor"
+        "title": "Mirë se vini në Panorama Resort Elbasan",
+        "subtitle": "Një vend për t'u relaksuar, përjetuar dhe shijuar momente të paharrueshme."
       },
       {
         "image": "/images/hero-2.jpg",
-        "title": "Relaksim & Aventurë",
-        "subtitle": "Zbuloni ekuilibrin perfekt të relaksimit dhe aventurës"
+        "title": "Resort Panorama Elbasan – Elegancë dhe Relaksim në Zemër të Shqipërisë",
+        "subtitle": "Dhoma moderne me pamje panoramike për një qëndrim të paharrueshëm."
       },
       {
         "image": "/images/hero-3.jpg",
-        "title": "Akomodime Mbresëlënëse",
-        "subtitle": "Dhoma të gjera me pamje mahnitëse malore"
+        "title": "Përvoja unike dhe hapësira relaksuese",
+        "subtitle": "Ambientet tona të pasura dhe aktivitetet unike ju presin për një përvojë të paharrueshme."
       }
     ]
   },
   "welcome": {
-    "title": "Mirë se vini në Paradise",
-    "subtitle": "Përjetoni luksin në male",
-    "description": "I vendosur në malet e bukura të Elbasanit, Panorama Resort ofron një përzierje perfekte të luksit, komoditetit dhe bukurisë natyrore. Resorti ynë është projektuar për t'ju ofruar një përvojë të paharrueshme, qoftë nëse jeni duke kërkuar një pushim relaksues, një arratisje romantike, ose një pushim të mbushur me aventura. Me pamje mahnitëse, shërbim të jashtëzakonshëm dhe komoditete të klasit botëror, ju ftojmë të zbuloni magjinë e Panorama Resort.",
-    "image": "/tropical-resort-poolside.png",
+    "title": "Mirë se vini në Panorama Resort",
+    "description": "I vendosur në një mjedis paqësor dhe natyror, Panorama Resort ofron arratisjen perfekte ku komoditeti, relaksimi dhe natyra bashkohen në harmoni. Nëse jeni në kërkim të një retreati të qetë ose aventurave në natyrë, këtu do të gjeni vendin ideal për një qëndrim të paharrueshëm.",
     "button": "Eksploro Më Shumë"
   },
   "features": {
@@ -30,75 +28,75 @@
     "subtitle": "Zbuloni çfarë e bën të veçantë resortin tonë",
     "items": [
       {
-        "icon": "🏊",
-        "title": "Pishinë",
-        "description": "Shijoni pishinën tonë të jashtme me pamje mahnitëse malore"
+        "icon": "🛏️",
+        "title": "Elegancë dhe relaksim në çdo qëndrim",
+        "description": "Relaksohuni në dhoma komode, të dizajnuara me stil, të krijuara për t'ju ofruar komoditet maksimal dhe qetësi në zemër të natyrës."
       },
       {
         "icon": "🍽️",
-        "title": "Kuzhinë e Sofistikuar",
-        "description": "Shijoni ushqimin e shijshëm të përgatitur nga kuzhinierët tanë të talentuar"
+        "title": "Shije Autentike Shqiptare",
+        "description": "Shijoni kuzhinën tradicionale shqiptare në restorantin tonë, ku recetat autentike përgatiten me përbërës të freskët, lokalë, duke ju sjellë shije të vërteta dhe mikpritje të ngrohtë."
       },
       {
-        "icon": "🧖",
-        "title": "Spa & Mirëqenie",
-        "description": "Relaksohuni dhe ringjalluni me gamën tonë të trajtimeve spa"
+        "icon": "🏇",
+        "title": "Aktivitete dhe përvoja unike",
+        "description": "Relaksohuni pranë pishinës, eksploroni natyrën përreth, ose përjetoni emocionin e kalërimit. Panorama Resort ofron aktivitete dhe përvoja për çdo moshë dhe çdo pasion, duke e bërë çdo qëndrim vërtet të veçantë."
       }
     ]
   },
   "roomsSection": {
-    "title": "Akomodimet Tona",
-    "subtitle": "Dhoma dhe suita luksoze për një qëndrim komod",
+    "title": "Dhomat & Komoditetet",
+    "subtitle": "Dhomat tona janë projektuar për të ofruar një qëndrim relaksues dhe komod, qoftë nëse udhëtoni vetëm, si çift, apo me familjen tuaj.\nÇdo hapësirë pasqyron ngrohtësi, funksionalitet dhe atmosferën qetësuese të mjedisit tonë natyror.\nÇdo dhomë përfshin krevate komode, një banjë private, Wi-Fi falas dhe pamje të bukura të zonës përreth — gjithçka që ju nevojitet për një qëndrim të qetë dhe të këndshëm.",
     "viewAllText": "Shikoni Të Gjitha Dhomat",
     "rooms": [
       {
         "id": 1,
-        "name": "Dhomë Deluxe me Pamje Malore",
-        "description": "Dhomë e gjerë me pamje mahnitëse malore",
-        "price": "€120",
+        "name": "Dhomë Teke",
+        "description": "Perfekte për udhëtarët e vetëm që kërkojnë paqe dhe privatësi.",
+        "price": "60€",
         "image": "/images/room-1.png"
       },
       {
         "id": 2,
-        "name": "Suitë Ekzekutive",
-        "description": "Suitë elegante me zonë të ndarë ndenjeje",
-        "price": "€180",
+        "name": "Dhomë Dyshe",
+        "description": "Ideale për çifte ose miq që udhëtojnë së bashku.",
+        "price": "67€",
         "image": "/images/room-2.png"
       },
       {
         "id": 3,
         "name": "Dhomë Familjare",
-        "description": "Perfekte për familjet me fëmijë",
-        "price": "€150",
+        "description": "E gjerë dhe komode për familjet me fëmijë.",
+        "price": "80€",
         "image": "/images/room-3.png"
       }
     ]
   },
   "activitiesSection": {
-    "title": "Aktivitetet e Resortit",
-    "subtitle": "Eksploroni aktivitetet e shumta në dispozicion në resortin tonë",
+    "title": "Relaksim dhe përvoja, të gjitha në një vend",
+    "subtitle": "Nga pishina të ngrohta dhe sauna deri te kalërimi dhe mjediset natyrore — këtu, relaksimi dhe aventura shkojnë dorë për dore.",
     "viewAllText": "Shikoni Të Gjitha Aktivitetet",
     "activities": [
       {
         "id": 1,
-        "title": "Notuesi",
-        "description": "Shijoni pishinën tonë freskuese me pamje mahnitëse",
+        "title": "Pishinë e Jashtme me Pamje Natyrore & Urbane",
+        "description": "Freskohuni dhe çlodhuni në pishinën tonë të jashtme, ku qetësia e natyrës takohet me pamjet panoramike të Elbasanit.",
         "image": "/images/activity-1.png",
         "duration": "Hapur çdo ditë",
         "difficulty": "Të gjitha nivelet"
       },
       {
         "id": 2,
-        "title": "Spa & Mirëqenie",
-        "description": "Relaksohuni dhe ringjalluni me gamën tonë të trajtimeve",
+        "title": "Sauna & Relaksim",
+        "description": "Lëreni stresin të shkrihet",
         "image": "/images/activity-2.png",
         "duration": "Me rezervim",
         "difficulty": "Të gjitha nivelet"
       },
       {
         "id": 3,
-        "title": "Qendra Fitnesi",
-        "description": "Qëndroni në formë gjatë pushimeve tuaja",
+        "title": "Një Përvojë Unike, Pikërisht në Resort",
+        "description": "Shijoni magjinë e kalërimit në një hapësirë të dedikuar brenda Panorama Resort. Është një aktivitet i qetë, i këndshëm i përshtatshëm për të gjitha moshat — nuk nevojitet përvojë, vetëm dashuri për natyrën dhe kafshët",
         "image": "/images/activity-3.png",
         "duration": "Akses 24/7",
         "difficulty": "Të gjitha nivelet"
@@ -106,8 +104,8 @@
     ]
   },
   "menuSection": {
-    "title": "Eksperienca Gastronomike",
-    "subtitle": "Shijoni kuzhinën e shkëlqyer të përgatitur nga kuzhinierët tanë të talentuar",
+    "title": "Disa nga Gatimet Tona më të Popullarizuara",
+    "subtitle": "Receta tradicionale, të dashura nga mysafirët tanë — gjithmonë të freskëta dhe plot shije.",
     "viewMenuText": "Shiko Menunë e Plotë",
     "categories": [
       {
@@ -128,8 +126,8 @@
     ]
   },
   "testimonialsSection": {
-    "title": "Dëshmitë e Mysafirëve",
-    "subtitle": "Çfarë thonë mysafirët tanë për përvojën e tyre",
+    "title": "Çfarë Thonë Mysafirët Tanë",
+    "subtitle": "Mos merrni vetëm fjalën tonë — shihni çfarë kanë për të thënë vizitorët tanë për qëndrimin e tyre në Panorama Resort.",
     "testimonials": [
       {
         "name": "Jon Smithi",

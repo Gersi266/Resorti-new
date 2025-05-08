@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "title": "Na Kontaktoni",
+    "image": "/images/contact-hero.jpg"
+  },
+  "getInTouch": {
+    "title": "Na Kontaktoni",
+    "subtitle": "Jemi këtu për të ndihmuar që qëndrimi juaj të jetë perfekt. Na kontaktoni me çdo pyetje ose për të rezervuar qëndrimin tuaj.",
+    "contactInfo": [
+      {
+        "icon": "phone",
+        "title": "Telefon",
+        "lines": ["Rezervime: +355 69 207 0062", "Recepsion: +355 69 207 0062"]
+      },
+      {
+        "icon": "mail",
+        "title": "Email",
+        "lines": ["Rezervime: reservations@paradiseresort.com", "Pyetje të Përgjithshme: info@paradiseresort.com"]
+      },
+      {
+        "icon": "mapPin",
+        "title": "Adresa",
+        "lines": ["Rruga Teqes Mengel", "Elbasan 3006"]
+      }
+    ]
+  },
+  "bookingCta": {
+    "title": "Gati për të Rezervuar Qëndrimin Tuaj?",
+    "description": "Vizitoni faqen tonë të rezervimeve për të kontrolluar disponueshmërinë dhe për të rezervuar dhomën tuaj në Panorama Resort.",
+    "buttonText": "Rezervo Tani",
+    "buttonLink": "https://www.see-albania.com/hotel/hotel-panorama-spa-elbasan"
+  },
+  "map": {
+    "title": "Na Gjeni",
+    "description": "I vendosur në qytetin e bukur të Elbasanit, Panorama Resort ofron akses të lehtë në atraksionet lokale duke ofruar një strehë paqësore nga zhurma e jetës së përditshme."
+  },
+  "faq": {
+    "title": "Pyetje të Bëra Shpesh",
+    "subtitle": "Gjeni përgjigje për pyetjet tona më të zakonshme. Nëse nuk shihni atë që po kërkoni, ju lutemi na kontaktoni.",
+    "questions": [
+      {
+        "question": "Cilat janë oraret e check-in dhe check-out?",
+        "answer": "Ora e check-in është 15:00 dhe ora e check-out është 11:00. Check-in i hershëm dhe check-out i vonshëm mund të jenë të disponueshme me kërkesë, në varësi të disponueshmërisë."
+      },
+      {
+        "question": "A ofrohet transport nga aeroporti?",
+        "answer": "Po, ne ofrojmë transport nga aeroporti për një tarifë shtesë. Ju lutemi jepni detajet e fluturimit tuaj të paktën 48 orë para mbërritjes për të organizuar marrjen."
+      },
+      {
+        "question": "A lejohen kafshët shtëpiake në resort?",
+        "answer": "Ne kemi dhoma të caktuara miqësore ndaj kafshëve të disponueshme. Ju lutemi na informoni në kohën e rezervimit nëse planifikoni të sillni një kafshë shtëpiake. Aplikohen tarifa dhe kufizime shtesë."
+      },
+      {
+        "question": "A është i disponueshëm Wi-Fi në resort?",
+        "answer": "Po, Wi-Fi i shpejtë falas është i disponueshëm në të gjithë resortin, përfshirë të gjitha dhomat e mysafirëve dhe zonat publike."
+      },
+      {
+        "question": "Cilat opsione të darkimit janë të disponueshme?",
+        "answer": "Ne kemi opsione të shumta të darkimit duke përfshirë restorantin tonë kryesor, barin dhe grillin e plazhit, dhe restorantin e kuzhinës së sofistikuar. Shërbimi në dhomë është gjithashtu i disponueshëm 24/7."
+      },
+      {
+        "question": "A ofroni paketa ose promocione speciale?",
+        "answer": "Po, ne ofrojmë paketa të ndryshme sezonale dhe promocione. Ju lutemi vizitoni faqen tonë të internetit ose kontaktoni ekipin tonë të rezervimeve për ofertat aktuale."
+      }
+    ]
+  }
+}

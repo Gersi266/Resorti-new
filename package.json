@@ -58,7 +58,11 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "latest",
     "zod": "^3.24.1",
-    "react-feather": "latest"
+    "react-feather": "latest",
+    "chokidar": "latest",
+    "path": "latest",
+    "child_process": "latest",
+    "fs": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",
