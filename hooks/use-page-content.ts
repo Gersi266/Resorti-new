@@ -18,17 +18,20 @@ export function usePageContent(page: string): UsePageContentResult {
 
   const fetchContent = async () => {
     setLoading(true)
-    setError(null)
     try {
-      const response = await fetch(`/api/content/${page}?lang=${language}`)
+      const response = await fetch(`/api/content-client?page=${page}&language=${language}`, {
+        cache: "no-store",
+      })
+
       if (!response.ok) {
-        throw new Error(`Failed to fetch content: ${response.statusText}`)
+        throw new Error(`Failed to fetch content for ${page}`)
       }
+
       const data = await response.json()
       setContent(data)
-    } catch (err: any) {
-      console.error(`Error fetching ${page} content:`, err)
-      setError(err.message || "Failed to load content")
+    } catch (error) {
+      console.error(`Error fetching content for ${page}:`, error)
+      setError(error as Error)
     } finally {
       setLoading(false)
     }

@@ -7,7 +7,8 @@ import SafeImage from "@/components/safe-image"
 import Activities from "@/components/activities"
 import MenuPreview from "@/components/menu-preview"
 import Testimonials from "@/components/testimonials"
-import { loadContent } from "@/lib/content-loader"
+// Remove this import
+// import { loadContent } from "@/lib/content-loader"
 import { useLanguage } from "@/contexts/language-context"
 import GoogleMap from "@/components/google-map"
 
@@ -20,13 +21,17 @@ export default function HomePage() {
   const { language } = useLanguage()
 
   useEffect(() => {
+    // Update the fetchContent function to use the API route
     async function fetchContent() {
       setLoading(true)
       try {
-        const [homeContent, contactData] = await Promise.all([
-          loadContent("home", language),
-          loadContent("contact", language),
+        const [homeResponse, contactResponse] = await Promise.all([
+          fetch(`/api/content?page=home&language=${language}`, { cache: "no-store" }),
+          fetch(`/api/content?page=contact&language=${language}`, { cache: "no-store" }),
         ])
+
+        const homeContent = await homeResponse.json()
+        const contactData = await contactResponse.json()
 
         // Normalize image paths in the content
         if (homeContent.hero?.slides) {

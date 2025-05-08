@@ -40,3 +40,21 @@ export function ContentProvider({ children }: { children: React.ReactNode }) {
 }
 
 export const useContent = () => useContext(ContentContext)
+
+const fetchContent = async (page: string, language: string) => {
+  try {
+    const response = await fetch(`/api/content-client?page=${page}&language=${language}`, {
+      cache: "no-store",
+    })
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch content for ${page}`)
+    }
+
+    const data = await response.json()
+    return data
+  } catch (error) {
+    console.error(`Error fetching content for ${page}:`, error)
+    return null
+  }
+}

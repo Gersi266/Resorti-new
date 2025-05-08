@@ -1,3 +1,5 @@
+"use server"
+
 import fs from "fs"
 import path from "path"
 
@@ -114,7 +116,7 @@ export async function loadContent(page: string, language = "en") {
 /**
  * Clear the content cache
  */
-export function clearContentCache() {
+export async function clearContentCache() {
   contentCache.clear()
   cacheTimestamps.clear()
 }
