@@ -77,7 +77,6 @@ export default function Footer() {
               <div className="relative w-10 h-10">
                 <Image src="/images/panorama-logo.png" alt="Panorama Resort Logo" fill className="object-contain" />
               </div>
-              <div className="ml-2 font-bold text-xl">Panorama Resort</div>
             </div>
             <p className="text-white/80 mb-6">
               Luxury mountain retreat offering exceptional comfort and breathtaking views.

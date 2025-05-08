@@ -47,7 +47,6 @@ export default function Header() {
             <div className="relative w-10 h-10 md:w-12 md:h-12">
               <Image src="/images/panorama-logo.png" alt="Panorama Resort Logo" fill className="object-contain" />
             </div>
-            <div className="ml-2 font-bold text-lg md:text-xl text-[#880E4F]">Panorama Resort</div>
           </div>
         </Link>
 
