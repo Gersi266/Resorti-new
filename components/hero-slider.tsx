@@ -44,7 +44,7 @@ export default function HeroSlider({ slides, language = "en" }: HeroSliderProps)
     <div className="relative h-screen max-h-[800px] w-full overflow-hidden">
       {slides.map((slide, index) => (
         <div
-          key={slide.id}
+          key={slide.id ? `slide-${slide.id}` : `slide-${index}`}
           className={`absolute inset-0 transition-opacity duration-1000 ${
             index === currentSlide ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
@@ -94,7 +94,7 @@ export default function HeroSlider({ slides, language = "en" }: HeroSliderProps)
       <div className="absolute bottom-8 left-0 right-0 flex justify-center gap-2 z-10">
         {slides.map((_, index) => (
           <button
-            key={index}
+            key={`indicator-${index}`}
             onClick={() => goToSlide(index)}
             className={`w-3 h-3 rounded-full transition-all ${
               index === currentSlide ? "bg-[#E91E63] w-8" : "bg-white/60 hover:bg-white"
