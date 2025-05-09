@@ -114,18 +114,18 @@ export default function Testimonials({ title, subtitle, testimonials }) {
 
     // Add full stars
     for (let i = 0; i < fullStars; i++) {
-      stars.push(<Star key={`star-${i}`} className="fill-yellow-400 text-yellow-400" size={18} />)
+      stars.push(<Star key={`star-${i}`} className="fill-yellow-400 text-yellow-400" size={18} aria-hidden="true" />)
     }
 
     // Add half star if needed
     if (hasHalfStar) {
-      stars.push(<StarHalf key="half-star" className="fill-yellow-400 text-yellow-400" size={18} />)
+      stars.push(<StarHalf key="half-star" className="fill-yellow-400 text-yellow-400" size={18} aria-hidden="true" />)
     }
 
     // Add empty stars to make 5 total
     const emptyStars = 5 - Math.ceil(rating)
     for (let i = 0; i < emptyStars; i++) {
-      stars.push(<Star key={`empty-star-${i}`} className="text-gray-300" size={18} />)
+      stars.push(<Star key={`empty-star-${i}`} className="text-gray-300" size={18} aria-hidden="true" />)
     }
 
     return stars
@@ -146,7 +146,7 @@ export default function Testimonials({ title, subtitle, testimonials }) {
             {/* Google Review Header */}
             <div className="flex items-center mb-4">
               <div className="flex items-center">
-                <svg viewBox="0 0 24 24" width="18" height="18" className="mr-2">
+                <svg viewBox="0 0 24 24" width="18" height="18" className="mr-2" aria-hidden="true">
                   <path
                     d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z"
                     fill="#4285F4"
@@ -158,7 +158,12 @@ export default function Testimonials({ title, subtitle, testimonials }) {
                 <span className="text-sm font-medium text-gray-700 mr-1">
                   {displayTestimonials[currentTestimonial].rating.toFixed(1)}
                 </span>
-                <div className="flex">{renderStars(displayTestimonials[currentTestimonial].rating)}</div>
+                <div
+                  className="flex"
+                  aria-label={`Rating: ${displayTestimonials[currentTestimonial].rating} out of 5 stars`}
+                >
+                  {renderStars(displayTestimonials[currentTestimonial].rating)}
+                </div>
               </div>
             </div>
 
@@ -172,7 +177,7 @@ export default function Testimonials({ title, subtitle, testimonials }) {
               <div className="relative w-12 h-12 rounded-full overflow-hidden mr-4 border border-gray-200">
                 <Image
                   src={displayTestimonials[currentTestimonial].image || "/placeholder.svg"}
-                  alt={displayTestimonials[currentTestimonial].name}
+                  alt={`${displayTestimonials[currentTestimonial].name} - Guest from ${displayTestimonials[currentTestimonial].location}`}
                   fill
                   className="object-cover"
                 />
@@ -201,6 +206,7 @@ export default function Testimonials({ title, subtitle, testimonials }) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="mr-1"
+                  aria-hidden="true"
                 >
                   <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                 </svg>
@@ -218,6 +224,7 @@ export default function Testimonials({ title, subtitle, testimonials }) {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   className="mr-1"
+                  aria-hidden="true"
                 >
                   <path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3zm7-13h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"></path>
                 </svg>

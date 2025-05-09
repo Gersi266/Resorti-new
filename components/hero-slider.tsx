@@ -54,7 +54,8 @@ export default function HeroSlider({ slides, language = "en" }: HeroSliderProps)
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
-              aria-label={slide.title || "Resort slide"}
+              role="img"
+              aria-label={slide.title || `Panorama Resort - Slide ${index + 1}`}
             ></div>
             <div className="absolute inset-0 bg-black bg-opacity-40"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
@@ -77,12 +78,14 @@ export default function HeroSlider({ slides, language = "en" }: HeroSliderProps)
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/20 hover:bg-[#F8BBD0] text-white hover:text-[#880E4F] w-10 h-10 rounded-full flex items-center justify-center transition-colors z-10"
+        aria-label="Previous slide"
       >
         <ChevronLeft size={24} />
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/20 hover:bg-[#F8BBD0] text-white hover:text-[#880E4F] w-10 h-10 rounded-full flex items-center justify-center transition-colors z-10"
+        aria-label="Next slide"
       >
         <ChevronRight size={24} />
       </button>

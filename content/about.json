@@ -2,13 +2,12 @@
   "hero": {
     "title": "About Us",
     "subtitle": "Learn more about our story and vision",
-    "image": "/images/about-us-cover.jpg"
+    "image": "/images/about-hero.jpg"
   },
   "story": {
     "title": "A Place Where Nature Meets Comfort",
     "subtitle": "",
-    "description": "Panorama Resort was born from a simple idea — to create a peaceful retreat where guests can unwind, reconnect with nature, and enjoy true Albanian hospitality.\n\nNestled in the calm surroundings of Elbasan, our resort offers the perfect balance of comfort and outdoor experience. Over the years, it has grown from a local hideaway into a destination loved for its authentic charm.\n\nGuests can enjoy delicious traditional cuisine at our restaurant, relax in both summer and winter pools, or embrace nature through activities like horse riding and walking trails — all surrounded by fresh mountain air and greenery.\n\nPanorama Resort remains a family-run place rooted in warmth, nature, and culture. We're proud to welcome every guest not just as a visitor, but as part of our story.",
-    "image": "/images/our-story.jpeg"
+    "description": "Panorama Resort was born from a simple idea — to create a peaceful retreat where guests can unwind, reconnect with nature, and enjoy true Albanian hospitality.\n\nNestled in the calm surroundings of Elbasan, our resort offers the perfect balance of comfort and outdoor experience. Over the years, it has grown from a local hideaway into a destination loved for its authentic charm.\n\nGuests can enjoy delicious traditional cuisine at our restaurant, relax in both summer and winter pools, or embrace nature through activities like horse riding and walking trails — all surrounded by fresh mountain air and greenery.\n\nPanorama Resort remains a family-run place rooted in warmth, nature, and culture. We're proud to welcome every guest not just as a visitor, but as part of our story."
   },
   "mission": {
     "title": "Our Mission",

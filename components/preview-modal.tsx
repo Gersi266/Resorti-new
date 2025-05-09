@@ -84,10 +84,15 @@ export default function PreviewModal({
         style={{
           boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(255, 255, 255, 0.1)",
         }}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
       >
         {/* Header */}
         <div className="p-5 border-b border-gray-100 flex justify-between items-center bg-gradient-to-r from-[#FFF9FB] to-white">
-          <h2 className="text-2xl font-bold text-[#880E4F] tracking-tight">{title}</h2>
+          <h2 id="modal-title" className="text-2xl font-bold text-[#880E4F] tracking-tight">
+            {title}
+          </h2>
           <button
             onClick={onClose}
             className="p-2 rounded-full hover:bg-[#F8BBD0] transition-colors duration-300"
@@ -104,11 +109,11 @@ export default function PreviewModal({
             <div className="md:w-3/5 bg-gray-50">
               <div className="relative h-[350px] md:h-[450px] overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-100 animate-pulse">
-                  <ImageIcon className="h-12 w-12 text-gray-300" />
+                  <ImageIcon className="h-12 w-12 text-gray-300" aria-hidden="true" />
                 </div>
                 <SafeImage
                   src={images[currentImageIndex]}
-                  alt={`${title} - Image ${currentImageIndex + 1}`}
+                  alt={`${title} - ${currentImageIndex === 0 ? "Main view" : `Additional view ${currentImageIndex}`}`}
                   fill
                   className="object-cover transition-opacity duration-300"
                   fallbackSrc={fallbackImage}
@@ -149,10 +154,11 @@ export default function PreviewModal({
                         : "border border-gray-200 opacity-70 hover:opacity-100 hover:scale-105 hover:border-[#F8BBD0]"
                     }`}
                     aria-label={`View image ${index + 1}`}
+                    aria-pressed={index === currentImageIndex}
                   >
                     <SafeImage
                       src={image}
-                      alt={`Thumbnail ${index + 1}`}
+                      alt={`${title} thumbnail ${index + 1}`}
                       fill
                       className="object-cover"
                       fallbackSrc={fallbackImage}

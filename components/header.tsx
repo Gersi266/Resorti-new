@@ -47,7 +47,7 @@ export default function Header() {
             <div className="relative w-auto h-12 sm:h-16 md:h-20">
               <Image
                 src="/images/panorama-logo.png"
-                alt="Panorama Resort Logo"
+                alt="Panorama Resort Logo - Luxury mountain retreat in Elbasan, Albania"
                 width={220}
                 height={100}
                 className="object-contain"
@@ -102,7 +102,12 @@ export default function Header() {
         {/* Mobile menu button */}
         <div className="flex items-center md:hidden">
           <LanguageSwitcher />
-          <button onClick={toggleMenu} className="ml-4 focus:outline-none text-[#E91E63]" aria-label="Toggle Menu">
+          <button
+            onClick={toggleMenu}
+            className="ml-4 focus:outline-none text-[#E91E63]"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMenuOpen}
+          >
             {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>

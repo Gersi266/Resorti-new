@@ -104,7 +104,7 @@ export default function Activities({ title, subtitle, activities, viewAllText })
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
                   src={activity.image || "/placeholder.svg"}
-                  alt={activity.name}
+                  alt={`${activity.title || activity.name} - ${activity.description?.substring(0, 50) || "Resort activity"}`}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -120,6 +120,7 @@ export default function Activities({ title, subtitle, activities, viewAllText })
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
+                    aria-hidden="true"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={activity.icon} />
                   </svg>

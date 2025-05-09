@@ -29,32 +29,21 @@ export default function AboutPage() {
           hero: {
             title: "About Us",
             subtitle: "Learn about our story, our mission, and our commitment to excellence",
-            image: "/images/about-us-cover.jpg",
+            image: "/images/about-hero.jpg",
           },
           story: {
             title: "Our Story",
-            description:
+            content: [
               "Founded in 2005, Paradise Resort began with a simple vision: to create a sanctuary where guests could experience the perfect harmony of luxury and nature.",
-            image: "/images/our-story.jpeg",
+              "Our founder, John Smith, discovered this pristine location during his travels and was immediately captivated by its natural beauty.",
+              "Today, Paradise Resort stands as a testament to that vision, offering unparalleled service, luxurious accommodations, and unforgettable experiences to guests from around the world.",
+            ],
+            image: "/images/about-story.jpg",
           },
           values: {
             title: "Our Values",
             subtitle: "At Paradise Resort, our values guide everything we do.",
             items: [],
-          },
-          mission: {
-            title: "Our Mission",
-            description:
-              "At Panorama Resort, our mission is to provide an unparalleled hospitality experience that celebrates the natural beauty of Albania.",
-          },
-          team: {
-            title: "Our Team",
-            subtitle: "Meet the dedicated professionals behind Panorama Resort",
-            members: [],
-          },
-          location: {
-            title: "Our Location",
-            subtitle: "Discover the beauty of Elbasan",
           },
         })
       } finally {
@@ -96,7 +85,7 @@ export default function AboutPage() {
       <section className="relative h-[40vh] min-h-[300px] bg-gray-900">
         <Image
           src={content.hero?.image || "/placeholder.svg"}
-          alt="About Paradise Resort"
+          alt="About Panorama Resort - Our story, values, and commitment to excellence"
           fill
           className="object-cover opacity-70"
         />
@@ -122,8 +111,8 @@ export default function AboutPage() {
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
             <Image
-              src={content.story?.image || "/images/our-story.jpeg"}
-              alt="Our resort story"
+              src={content.story?.image || "/placeholder.svg"}
+              alt="The story of Panorama Resort - Our journey and heritage"
               fill
               className="object-cover"
             />
@@ -153,78 +142,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Mission Section */}
-      {content.mission && (
-        <section className="py-16 px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">{content.mission.title}</h2>
-            <div className="w-20 h-1 bg-[#E91E63] mx-auto mb-6"></div>
-            <p className="text-gray-600">{content.mission.description}</p>
-          </div>
-        </section>
-      )}
-
-      {/* Team Section */}
-      {content.team && content.team.members && content.team.members.length > 0 && (
-        <section className="py-16 px-4 bg-[#FFF9FB]">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">{content.team.title}</h2>
-              <div className="w-20 h-1 bg-[#E91E63] mx-auto mb-6"></div>
-              <p className="text-lg max-w-3xl mx-auto text-gray-600">{content.team.subtitle}</p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {content.team.members.map((member: any, index: number) => (
-                <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                  <div className="relative h-64">
-                    <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-                    <p className="text-gray-600">{member.position}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Location Section */}
-      {content.location && (
-        <section className="py-16 px-4">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">{content.location.title}</h2>
-              <div className="w-20 h-1 bg-[#E91E63] mx-auto mb-6"></div>
-              <p className="text-lg max-w-3xl mx-auto text-gray-600">{content.location.subtitle}</p>
-            </div>
-
-            {content.location.description && (
-              <div className="mb-8 max-w-3xl mx-auto">
-                {content.location.description.split("\n\n").map((paragraph: string, index: number) => (
-                  <p key={index} className="text-gray-600 mb-4">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            )}
-
-            <div className="h-96 w-full rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.6871078721774!2d20.019379915707168!3d40.92741947931095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1350120c17e6bbcb%3A0x9c1aa08d42d4c3a9!2sHotel%20Panorama%20%26%20SPA!5e0!3m2!1sen!2sus!4v1620301156578!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-              ></iframe>
-            </div>
-          </div>
-        </section>
-      )}
     </main>
   )
 }

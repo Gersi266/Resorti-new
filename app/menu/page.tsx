@@ -81,7 +81,7 @@ export default function MenuPage() {
       <section className="relative h-[40vh] min-h-[300px] bg-gray-900">
         <Image
           src={displayContent.hero?.image || "/images/menu-generic.png"}
-          alt="Our Menu"
+          alt="Panorama Resort dining experience - Exquisite cuisine and culinary delights"
           fill
           className="object-cover opacity-70"
         />
@@ -124,7 +124,9 @@ export default function MenuPage() {
               className="bg-white p-6 rounded-lg shadow-md text-center border border-[#F8BBD0] hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
               <div className="w-16 h-16 bg-[#F8BBD0] rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-[#E91E63]">{option.icon}</span>
+                <span className="text-2xl text-[#E91E63]" aria-hidden="true">
+                  {option.icon}
+                </span>
               </div>
               <h3 className="text-xl font-semibold mb-2">{option.title}</h3>
               <p className="text-gray-600">{option.description}</p>
@@ -149,6 +151,7 @@ export default function MenuPage() {
                     ? "bg-[#E91E63] text-white"
                     : "bg-white text-[#880E4F] border border-[#F8BBD0] hover:bg-[#F8BBD0]"
                 }`}
+                aria-pressed={selectedCategory === "all"}
               >
                 {displayContent.categoryNav?.allText || "All"}
               </button>
@@ -161,6 +164,7 @@ export default function MenuPage() {
                       ? "bg-[#E91E63] text-white"
                       : "bg-white text-[#880E4F] border border-[#F8BBD0] hover:bg-[#F8BBD0]"
                   }`}
+                  aria-pressed={selectedCategory === category.id}
                 >
                   {category.name}
                 </button>
@@ -186,7 +190,7 @@ export default function MenuPage() {
                   <div className="relative h-64">
                     <Image
                       src={category.image || `/images/menu-${category.id}.png`}
-                      alt={category.name}
+                      alt={`${category.name} - Menu category featuring ${category.description || "delicious dishes"}`}
                       fill
                       className="object-cover"
                       onError={(e) => {
@@ -213,7 +217,7 @@ export default function MenuPage() {
                               <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-[#F8BBD0] shadow-md group-hover:border-[#E91E63] transition-colors">
                                 <Image
                                   src={item.image || "/placeholder.svg"}
-                                  alt={item.name}
+                                  alt={`${item.name} - ${category.name} dish`}
                                   width={96}
                                   height={96}
                                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
@@ -266,7 +270,7 @@ export default function MenuPage() {
             <div className="relative h-64 md:h-auto">
               <Image
                 src={displayContent.privateDining?.image || "/images/menu-generic.png"}
-                alt="Private Dining"
+                alt="Private dining experience at Panorama Resort - Exclusive culinary events"
                 fill
                 className="object-cover"
               />

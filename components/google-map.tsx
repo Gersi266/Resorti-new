@@ -13,7 +13,7 @@ export default function GoogleMap({ className = "" }: GoogleMapProps) {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title="Panorama Resort Location"
-          aria-label="Google Maps showing Panorama Resort location"
+          aria-label="Google Maps showing Panorama Resort location in Elbasan, Albania"
         ></iframe>
       </div>
     </div>

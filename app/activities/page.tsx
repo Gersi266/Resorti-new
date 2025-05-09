@@ -60,7 +60,7 @@ export default function ActivitiesPage() {
 
         <div className="bg-gradient-to-r from-[#FFF9FB] to-[#F8BBD0] p-5 rounded-lg mb-4 space-y-4 shadow-sm">
           <div className="flex items-center">
-            <Clock className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" />
+            <Clock className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" aria-hidden="true" />
             <div>
               <span className="font-medium text-[#880E4F]">Hours:</span>
               <span className="ml-2 text-gray-600">{activity.hours}</span>
@@ -68,7 +68,7 @@ export default function ActivitiesPage() {
           </div>
 
           <div className="flex items-center">
-            <MapPin className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" />
+            <MapPin className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" aria-hidden="true" />
             <div>
               <span className="font-medium text-[#880E4F]">Location:</span>
               <span className="ml-2 text-gray-600">{activity.location}</span>
@@ -76,7 +76,7 @@ export default function ActivitiesPage() {
           </div>
 
           <div className="flex items-center">
-            <DollarSign className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" />
+            <DollarSign className="h-5 w-5 text-[#E91E63] mr-3 flex-shrink-0" aria-hidden="true" />
             <div>
               <span className="font-medium text-[#880E4F]">Price:</span>
               <span className="ml-2 text-gray-600">{activity.price}</span>
@@ -104,7 +104,7 @@ export default function ActivitiesPage() {
       <section className="relative h-[60vh] min-h-[400px]">
         <SafeImage
           src={content?.hero?.image || "/images/activities-hero.png"}
-          alt="Resort Activities"
+          alt="Resort activities at Panorama - Adventure and relaxation experiences"
           fill
           className="object-cover"
           fallbackSrc="/tropical-infinity-pool.png"
@@ -150,7 +150,7 @@ export default function ActivitiesPage() {
                   {activity.image ? (
                     <SafeImage
                       src={activity.image}
-                      alt={activity.name || "Activity"}
+                      alt={`${activity.title || activity.name} - ${activity.description?.substring(0, 50) || "Resort activity"}`}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                       fallbackSrc="/images/activity-1.png"
@@ -171,11 +171,11 @@ export default function ActivitiesPage() {
 
                   <div className="bg-[#FFF9FB] p-4 rounded-lg mb-6 space-y-2.5 text-sm border border-[#F8BBD0]">
                     <div className="flex items-center text-[#880E4F]">
-                      <Clock className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" />
+                      <Clock className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" aria-hidden="true" />
                       <span className="truncate">{activity.duration || activity.hours}</span>
                     </div>
                     <div className="flex items-center text-[#880E4F]">
-                      <MapPin className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" />
+                      <MapPin className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" aria-hidden="true" />
                       <span className="truncate">{activity.difficulty || activity.location}</span>
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function ActivitiesPage() {
                   {activity.image ? (
                     <SafeImage
                       src={activity.image}
-                      alt={activity.name || "Activity"}
+                      alt={`${activity.title || activity.name} - ${activity.description?.substring(0, 50) || "Resort activity"}`}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                       fallbackSrc="/images/activity-1.png"
@@ -222,11 +222,11 @@ export default function ActivitiesPage() {
 
                   <div className="bg-[#FFF9FB] p-4 rounded-lg mb-6 space-y-2.5 text-sm border border-[#F8BBD0]">
                     <div className="flex items-center text-[#880E4F]">
-                      <Clock className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" />
+                      <Clock className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" aria-hidden="true" />
                       <span className="truncate">{activity.duration || activity.hours}</span>
                     </div>
                     <div className="flex items-center text-[#880E4F]">
-                      <MapPin className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" />
+                      <MapPin className="h-4 w-4 mr-2.5 text-[#E91E63] flex-shrink-0" aria-hidden="true" />
                       <span className="truncate">{activity.difficulty || activity.location}</span>
                     </div>
                   </div>

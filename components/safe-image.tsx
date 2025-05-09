@@ -52,10 +52,13 @@ export default function SafeImage({
     return null
   }
 
+  // Ensure alt text is never empty
+  const accessibleAlt = alt || "Panorama Resort image"
+
   return (
     <Image
       src={normalizeSrc(finalSrc) || "/placeholder.svg"}
-      alt={alt}
+      alt={accessibleAlt}
       className={cn("object-cover", className)}
       fill={fill}
       width={!fill ? width : undefined}

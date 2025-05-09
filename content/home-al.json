@@ -2,21 +2,21 @@
   "hero": {
     "slides": [
       {
-        "image": "/images/hero-1-new.jpeg",
+        "image": "/images/hero-1.jpg",
         "title": "Mirë se vini në Panorama Resort Elbasan",
         "subtitle": "Një vend për t'u relaksuar, përjetuar dhe shijuar momente të paharrueshme.",
         "buttonText": "Rreth Nesh",
         "buttonLink": "/about"
       },
       {
-        "image": "/images/hero-2-new.jpeg",
+        "image": "/images/hero-2.jpg",
         "title": "Resort Panorama Elbasan – Elegancë dhe Relaksim në Zemër të Shqipërisë",
         "subtitle": "Dhoma moderne me pamje panoramike për një qëndrim të paharrueshëm.",
         "buttonText": "Dhomat Tona",
         "buttonLink": "/rooms"
       },
       {
-        "image": "/images/hero-3-new.jpeg",
+        "image": "/images/hero-3.jpg",
         "title": "Përvoja unike dhe hapësira relaksuese",
         "subtitle": "Ambientet tona të pasura dhe aktivitetet unike ju presin për një përvojë të paharrueshme.",
         "buttonText": "Aktivitetet",
@@ -95,7 +95,7 @@
         "id": 2,
         "title": "Sauna & Relaksim",
         "description": "Lëreni stresin të shkrihet",
-        "image": "/images/indoor-pool-preview.png",
+        "image": "/images/activity-2.png",
         "duration": "Me rezervim",
         "difficulty": "Të gjitha nivelet"
       },
@@ -103,7 +103,7 @@
         "id": 3,
         "title": "Një Përvojë Unike, Pikërisht në Resort",
         "description": "Shijoni magjinë e kalërimit në një hapësirë të dedikuar brenda Panorama Resort. Është një aktivitet i qetë, i këndshëm i përshtatshëm për të gjitha moshat — nuk nevojitet përvojë, vetëm dashuri për natyrën dhe kafshët",
-        "image": "/images/horse-riding-preview.png",
+        "image": "/images/activity-3.png",
         "duration": "Akses 24/7",
         "difficulty": "Të gjitha nivelet"
       }

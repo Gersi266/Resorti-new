@@ -2,21 +2,21 @@
   "hero": {
     "slides": [
       {
-        "image": "/images/hero-1-new.jpeg",
+        "image": "/images/hero-1.jpg",
         "title": "Welcome to Panorama Resort Elbasan",
         "subtitle": "A place to relax, experience, and enjoy unforgettable moments.",
         "buttonText": "About Us",
         "buttonLink": "/about"
       },
       {
-        "image": "/images/hero-2-new.jpeg",
+        "image": "/images/hero-2.jpg",
         "title": "Resort Panorama Elbasan – Elegance and Relaxation in the Heart of Albania",
         "subtitle": "Modern rooms with panoramic views for an unforgettable stay.",
         "buttonText": "Our Rooms",
         "buttonLink": "/rooms"
       },
       {
-        "image": "/images/hero-3-new.jpeg",
+        "image": "/images/hero-3.jpg",
         "title": "Unique experiences and relaxing spaces",
         "subtitle": "Our rich facilities and unique activities await you for an unforgettable experience.",
         "buttonText": "Activities",
@@ -95,7 +95,7 @@
         "id": 2,
         "title": "Sauna & Relaxation",
         "description": "Let the stress melt away",
-        "image": "/images/indoor-pool-preview.png",
+        "image": "/images/activity-2.png",
         "duration": "By appointment",
         "difficulty": "All levels"
       },
@@ -103,7 +103,7 @@
         "id": 3,
         "title": "A Unique Experience, Right at the Resort",
         "description": "Enjoy the charm of horse riding in a dedicated space within Panorama Resort. It's a calm, enjoyable activity suitable for all ages — no experience needed, just a love for nature and animals",
-        "image": "/images/horse-riding-preview.png",
+        "image": "/images/activity-3.png",
         "duration": "24/7 access",
         "difficulty": "All levels"
       }

@@ -44,11 +44,11 @@ export default function RoomsPage() {
         </div>
         <div className="bg-gradient-to-r from-[#FFF9FB] to-[#F8BBD0] px-4 py-3 rounded-lg shadow-sm">
           <div className="flex items-center text-sm text-[#880E4F]">
-            <Clock className="h-4 w-4 mr-2 text-[#E91E63]" />
+            <Clock className="h-4 w-4 mr-2 text-[#E91E63]" aria-hidden="true" />
             <span>Check-in: {content?.checkTimes?.checkIn || "12:00"}</span>
           </div>
           <div className="flex items-center text-sm text-[#880E4F] mt-1.5">
-            <Clock className="h-4 w-4 mr-2 text-[#E91E63]" />
+            <Clock className="h-4 w-4 mr-2 text-[#E91E63]" aria-hidden="true" />
             <span>Check-out: {content?.checkTimes?.checkOut || "11:00"}</span>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function RoomsPage() {
           {room.features?.map((feature: string, index: number) => (
             <li key={index} className="text-gray-600 flex items-center">
               <div className="h-5 w-5 rounded-full bg-[#F8BBD0] flex items-center justify-center mr-2 flex-shrink-0">
-                <Check className="h-3.5 w-3.5 text-[#D81B60]" />
+                <Check className="h-3.5 w-3.5 text-[#D81B60]" aria-hidden="true" />
               </div>
               <span>{feature}</span>
             </li>
@@ -96,7 +96,7 @@ export default function RoomsPage() {
       <section className="relative h-[60vh] min-h-[400px]">
         <SafeImage
           src="/images/room-1.png"
-          alt="Our Rooms"
+          alt="Luxury accommodations at Panorama Resort - Comfortable rooms with mountain views"
           fill
           className="object-cover"
           fallbackSrc="/opulent-suite.png"
@@ -140,7 +140,7 @@ export default function RoomsPage() {
                 <div className="relative h-64 overflow-hidden">
                   <SafeImage
                     src={room.image || room.mainImage}
-                    alt={room.name}
+                    alt={`${room.name} - ${room.description?.substring(0, 50) || "Luxury accommodation"}`}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                     fallbackSrc="/opulent-suite.png"
@@ -162,7 +162,7 @@ export default function RoomsPage() {
                       room.features.slice(0, 4).map((feature: string, index: number) => (
                         <div key={index} className="w-1/2 flex items-center text-gray-700">
                           <div className="h-4 w-4 rounded-full bg-[#F8BBD0] flex items-center justify-center mr-2 flex-shrink-0">
-                            <Check className="h-3 w-3 text-[#D81B60]" />
+                            <Check className="h-3 w-3 text-[#D81B60]" aria-hidden="true" />
                           </div>
                           <span className="text-sm">{feature}</span>
                         </div>
@@ -235,6 +235,7 @@ export default function RoomsPage() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
+                    aria-hidden="true"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>

@@ -38,7 +38,7 @@ export default function ContactPage() {
       <section className="relative h-[40vh] min-h-[300px] bg-gray-900">
         <Image
           src={content?.hero?.image || "/images/hero-1.jpg"}
-          alt="Contact Us"
+          alt="Contact Panorama Resort - Get in touch with our team"
           fill
           className="object-cover opacity-70"
         />
@@ -68,9 +68,9 @@ export default function ContactPage() {
               className="bg-white p-6 rounded-lg shadow-md text-center border border-[#F8BBD0] hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
               <div className="w-16 h-16 bg-[#F8BBD0] rounded-full flex items-center justify-center mx-auto mb-4">
-                {info.icon === "phone" && <Phone className="h-6 w-6 text-[#E91E63]" />}
-                {info.icon === "mail" && <Mail className="h-6 w-6 text-[#E91E63]" />}
-                {info.icon === "mapPin" && <MapPin className="h-6 w-6 text-[#E91E63]" />}
+                {info.icon === "phone" && <Phone className="h-6 w-6 text-[#E91E63]" aria-hidden="true" />}
+                {info.icon === "mail" && <Mail className="h-6 w-6 text-[#E91E63]" aria-hidden="true" />}
+                {info.icon === "mapPin" && <MapPin className="h-6 w-6 text-[#E91E63]" aria-hidden="true" />}
               </div>
               <h3 className="text-xl font-semibold mb-2">{info.title}</h3>
               {info.lines?.map((line: string, i: number) => (
