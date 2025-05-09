@@ -179,6 +179,7 @@ export default function HomePage() {
             ? slide.image.replace("/Paradise-main/public", "")
             : slide.image,
         }))}
+        language={language}
       />
 
       {/* Welcome Section with Features */}

@@ -8,13 +8,16 @@ interface Slide {
   image: string
   title: string
   subtitle: string
+  buttonText?: string
+  buttonLink?: string
 }
 
 interface HeroSliderProps {
   slides: Slide[]
+  language?: string
 }
 
-export default function HeroSlider({ slides }: HeroSliderProps) {
+export default function HeroSlider({ slides, language = "en" }: HeroSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   // Auto-advance slides
@@ -57,12 +60,14 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 max-w-4xl">{slide.title}</h1>
               <p className="text-xl md:text-2xl max-w-2xl mb-8">{slide.subtitle}</p>
-              <a
-                href="#featured-rooms"
-                className="inline-block bg-[#F8BBD0] text-[#880E4F] px-8 py-3 rounded-lg font-semibold hover:bg-[#E91E63] hover:text-white transition-colors mt-8 transform hover:scale-105 duration-300"
-              >
-                Explore Our Rooms
-              </a>
+              {slide.buttonLink && (
+                <a
+                  href={slide.buttonLink}
+                  className="inline-block bg-[#F8BBD0] text-[#880E4F] px-8 py-3 rounded-lg font-semibold hover:bg-[#E91E63] hover:text-white transition-colors mt-8 transform hover:scale-105 duration-300"
+                >
+                  {slide.buttonText || (language === "al" ? "Eksploro" : "Explore")}
+                </a>
+              )}
             </div>
           </div>
         </div>

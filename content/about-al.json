@@ -2,12 +2,13 @@
   "hero": {
     "title": "Rreth Nesh",
     "subtitle": "Mësoni më shumë për historinë dhe vizionin tonë",
-    "image": "/images/about-hero.jpg"
+    "image": "/images/about-us-cover.jpg"
   },
   "story": {
     "title": "Një Vend Ku Natyra Takon Komoditetin",
     "subtitle": "",
-    "description": "Panorama Resort lindi nga një ide e thjeshtë — për të krijuar një strehë paqësore ku mysafirët mund të çlodhen, të rilidhën me natyrën dhe të shijojnë mikpritjen e vërtetë shqiptare.\n\nI vendosur në rrethinat e qeta të Elbasanit, resorti ynë ofron ekuilibrin perfekt midis komoditetit dhe përvojës në natyrë. Ndër vite, ai është rritur nga një strehë lokale në një destinacion të dashur për sharmin e tij autentik.\n\nMysafirët mund të shijojnë kuzhinën tradicionale të shijshme në restorantin tonë, të relaksohen në pishinat e verës dhe dimrit, ose të përqafojnë natyrën përmes aktiviteteve si kalërimi dhe shtigjet e ecjes — të gjitha të rrethuar nga ajri i freskët malor dhe gjelbërimi.\n\nPanorama Resort mbetet një vend i drejtuar nga familja, i rrënjosur në ngrohtësi, natyrë dhe kulturë. Ne jemi krenarë të mirëpresim çdo mysafir jo vetëm si vizitor, por si pjesë e historisë sonë."
+    "description": "Panorama Resort lindi nga një ide e thjeshtë — për të krijuar një strehë paqësore ku mysafirët mund të çlodhen, të rilidhën me natyrën dhe të shijojnë mikpritjen e vërtetë shqiptare.\n\nI vendosur në rrethinat e qeta të Elbasanit, resorti ynë ofron ekuilibrin perfekt midis komoditetit dhe përvojës në natyrë. Ndër vite, ai është rritur nga një strehë lokale në një destinacion të dashur për sharmin e tij autentik.\n\nMysafirët mund të shijojnë kuzhinën tradicionale të shijshme në restorantin tonë, të relaksohen në pishinat e verës dhe dimrit, ose të përqafojnë natyrën përmes aktiviteteve si kalërimi dhe shtigjet e ecjes — të gjitha të rrethuar nga ajri i freskët malor dhe gjelbërimi.\n\nPanorama Resort mbetet një vend i drejtuar nga familja, i rrënjosur në ngrohtësi, natyrë dhe kulturë. Ne jemi krenarë të mirëpresim çdo mysafir jo vetëm si vizitor, por si pjesë e historisë sonë.",
+    "image": "/images/our-story.jpeg"
   },
   "mission": {
     "title": "Misioni Ynë",

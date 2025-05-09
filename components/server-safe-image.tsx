@@ -6,12 +6,7 @@ interface ServerSafeImageProps extends Omit<ImageProps, "src"> {
   alt: string
 }
 
-export default function ServerSafeImage({
-  src,
-  fallbackSrc = "/placeholder.svg",
-  alt,
-  ...props
-}: ServerSafeImageProps) {
+export function ServerSafeImage({ src, fallbackSrc = "/placeholder.svg", alt, ...props }: ServerSafeImageProps) {
   // Simple logic to determine the source without using state or event handlers
   const finalSrc = src && typeof src === "string" && src.trim() !== "" ? src : fallbackSrc || "/placeholder.svg"
 
