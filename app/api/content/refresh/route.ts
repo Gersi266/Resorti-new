@@ -1,14 +1,12 @@
 import { NextResponse } from "next/server"
-import { clearContentCache } from "@/lib/content-loader"
 
 export async function POST() {
   try {
-    // Clear the content cache
-    clearContentCache()
-
-    return NextResponse.json({ success: true, message: "Content cache cleared successfully" })
+    // In a real implementation, this would refresh content from a CMS or database
+    // For now, we'll just return a success response
+    return NextResponse.json({ success: true })
   } catch (error) {
-    console.error("Error clearing content cache:", error)
-    return NextResponse.json({ success: false, message: "Failed to clear content cache" }, { status: 500 })
+    console.error("Error refreshing content:", error)
+    return NextResponse.json({ error: "Failed to refresh content" }, { status: 500 })
   }
 }

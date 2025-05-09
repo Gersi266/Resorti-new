@@ -40,27 +40,43 @@
     "questions": [
       {
         "question": "What are the check-in and check-out times?",
-        "answer": "Check-in time is 3:00 PM and check-out time is 11:00 AM. Early check-in and late check-out may be available upon request, subject to availability."
-      },
-      {
-        "question": "Is airport transportation available?",
-        "answer": "Yes, we offer airport transportation for an additional fee. Please provide your flight details at least 48 hours prior to arrival to arrange pickup."
-      },
-      {
-        "question": "Are pets allowed at the resort?",
-        "answer": "We have designated pet-friendly rooms available. Please inform us at the time of booking if you plan to bring a pet. Additional fees and restrictions apply."
+        "answer": "Check-in is from 3:00 PM and check-out is until 11:00 AM. Early check-in and late check-out may be possible depending on availability — just let us know in advance."
       },
       {
         "question": "Is Wi-Fi available at the resort?",
-        "answer": "Yes, complimentary high-speed Wi-Fi is available throughout the resort, including all guest rooms and public areas."
+        "answer": "Yes, we offer free high-speed Wi-Fi throughout the entire resort, including all rooms and public areas."
       },
       {
-        "question": "What dining options are available?",
-        "answer": "We have multiple dining options including our main restaurant, beach bar & grill, and fine dining restaurant. Room service is also available 24/7."
+        "question": "Is horse riding available at the resort?",
+        "answer": "Yes! Horse riding is available right inside the resort in our dedicated area. It's suitable for all ages and experience levels."
       },
       {
-        "question": "Do you offer special packages or promotions?",
-        "answer": "Yes, we offer various seasonal packages and promotions. Please visit our website or contact our reservations team for current offers."
+        "question": "Do you have a swimming pool open year-round?",
+        "answer": "Yes, we have both an outdoor summer pool and a heated indoor pool that is open year-round. There's also a sauna for extra relaxation."
+      },
+      {
+        "question": "Can I enjoy traditional Albanian food at the resort?",
+        "answer": "Absolutely. Our restaurant offers a range of traditional Albanian dishes prepared with fresh, local ingredients."
+      },
+      {
+        "question": "Is there live entertainment at the resort?",
+        "answer": "We occasionally host evenings with live traditional music to offer guests a taste of Albanian culture in a warm, welcoming atmosphere."
+      },
+      {
+        "question": "Is the resort suitable for families?",
+        "answer": "Yes, Panorama Resort is family-friendly. We offer family rooms, a children's area in the pool, and safe outdoor spaces for kids to enjoy."
+      },
+      {
+        "question": "Are pets allowed?",
+        "answer": "We currently do not accommodate pets at the resort."
+      },
+      {
+        "question": "Do you offer free parking?",
+        "answer": "Yes, private parking is available free of charge for all guests."
+      },
+      {
+        "question": "Do you offer any seasonal packages or promotions?",
+        "answer": "Yes! We regularly offer seasonal deals. Please check our website or contact our team for the latest packages."
       }
     ]
   }

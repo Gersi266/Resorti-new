@@ -3,6 +3,7 @@ import Image from "next/image"
 import { Phone, Mail, MapPin } from "lucide-react"
 import GoogleMap from "@/components/google-map"
 import { usePageContent } from "@/hooks/use-page-content"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export default function ContactPage() {
   const { content, loading, error } = usePageContent("contact")
@@ -98,6 +99,31 @@ export default function ContactPage() {
               <GoogleMap location={content?.mapLocation} />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 px-4 max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">{content?.faq?.title || "Frequently Asked Questions"}</h2>
+          <div className="w-20 h-1 bg-[#E91E63] mx-auto mb-6"></div>
+          <p className="text-lg max-w-3xl mx-auto text-gray-600 mb-12">
+            {content?.faq?.subtitle ||
+              "Find answers to our most commonly asked questions. If you don't see what you're looking for, please contact us."}
+          </p>
+        </div>
+
+        <div className="max-w-3xl mx-auto">
+          <Accordion type="single" collapsible className="w-full">
+            {content?.faq?.questions?.map((faq: any, index: number) => (
+              <AccordionItem key={index} value={`item-${index}`} className="border-b border-[#F8BBD0]">
+                <AccordionTrigger className="text-left font-medium text-lg py-4 hover:text-[#E91E63] transition-colors">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pb-4 pt-2">{faq.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </section>
     </main>

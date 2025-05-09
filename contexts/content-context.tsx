@@ -1,60 +1,48 @@
 "use client"
 
-import type React from "react"
-
-import { createContext, useContext, useCallback } from "react"
-import { useRouter } from "next/navigation"
+import { createContext, useContext, useState, type ReactNode } from "react"
 
 type ContentContextType = {
   refreshContent: () => Promise<void>
+  isRefreshing: boolean
 }
 
-const ContentContext = createContext<ContentContextType>({
-  refreshContent: async () => {},
-})
+const ContentContext = createContext<ContentContextType | undefined>(undefined)
 
-export function ContentProvider({ children }: { children: React.ReactNode }) {
-  const router = useRouter()
+export function ContentProvider({ children }: { children: ReactNode }) {
+  const [isRefreshing, setIsRefreshing] = useState(false)
 
-  const refreshContent = useCallback(async () => {
+  // Simplified refresh function that just calls the API
+  const refreshContent = async () => {
     try {
-      // Call the refresh API endpoint
+      setIsRefreshing(true)
       const response = await fetch("/api/content/refresh", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
       })
 
       if (!response.ok) {
         throw new Error("Failed to refresh content")
       }
 
-      // Refresh the current page
-      router.refresh()
-
-      console.log("Content refreshed successfully")
+      // Force a client-side navigation to refresh the page
+      window.location.reload()
     } catch (error) {
       console.error("Error refreshing content:", error)
+    } finally {
+      setIsRefreshing(false)
     }
-  }, [router])
+  }
 
-  return <ContentContext.Provider value={{ refreshContent }}>{children}</ContentContext.Provider>
+  return <ContentContext.Provider value={{ refreshContent, isRefreshing }}>{children}</ContentContext.Provider>
 }
 
-export const useContent = () => useContext(ContentContext)
-
-const fetchContent = async (page: string, language: string) => {
-  try {
-    const response = await fetch(`/api/content-client?page=${page}&language=${language}`, {
-      cache: "no-store",
-    })
-
-    if (!response.ok) {
-      throw new Error(`Failed to fetch content for ${page}`)
-    }
-
-    const data = await response.json()
-    return data
-  } catch (error) {
-    console.error(`Error fetching content for ${page}:`, error)
-    return null
+export function useContent() {
+  const context = useContext(ContentContext)
+  if (context === undefined) {
+    throw new Error("useContent must be used within a ContentProvider")
   }
+  return context
 }

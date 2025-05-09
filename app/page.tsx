@@ -7,8 +7,6 @@ import SafeImage from "@/components/safe-image"
 import Activities from "@/components/activities"
 import MenuPreview from "@/components/menu-preview"
 import Testimonials from "@/components/testimonials"
-// Remove this import
-// import { loadContent } from "@/lib/content-loader"
 import { useLanguage } from "@/contexts/language-context"
 import GoogleMap from "@/components/google-map"
 
@@ -21,7 +19,6 @@ export default function HomePage() {
   const { language } = useLanguage()
 
   useEffect(() => {
-    // Update the fetchContent function to use the API route
     async function fetchContent() {
       setLoading(true)
       try {

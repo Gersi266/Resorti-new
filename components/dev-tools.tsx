@@ -1,34 +1,33 @@
 "use client"
 
+import { useEffect, useState } from "react"
 import { useContent } from "@/contexts/content-context"
-import { useState } from "react"
+import { createPortal } from "react-dom"
 
 export function DevTools() {
-  const { refreshContent } = useContent()
-  const [isRefreshing, setIsRefreshing] = useState(false)
+  const { refreshContent, isRefreshing } = useContent()
+  const [mounted, setMounted] = useState(false)
 
-  if (process.env.NODE_ENV !== "development") {
-    return null
-  }
+  useEffect(() => {
+    setMounted(true)
+    return () => setMounted(false)
+  }, [])
 
-  const handleRefresh = async () => {
-    setIsRefreshing(true)
-    try {
-      await refreshContent()
-    } finally {
-      setIsRefreshing(false)
-    }
-  }
+  if (!mounted || process.env.NODE_ENV !== "development") return null
 
-  return (
+  const devToolsContainer = document.getElementById("dev-tools-container")
+  if (!devToolsContainer) return null
+
+  return createPortal(
     <div className="fixed bottom-4 right-4 z-50">
       <button
-        onClick={handleRefresh}
+        onClick={refreshContent}
         disabled={isRefreshing}
-        className="bg-red-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-red-600 transition-colors disabled:opacity-50"
+        className="bg-gray-800 text-white px-4 py-2 rounded-md shadow-lg hover:bg-gray-700 transition-colors"
       >
         {isRefreshing ? "Refreshing..." : "Refresh Content"}
       </button>
-    </div>
+    </div>,
+    devToolsContainer,
   )
 }

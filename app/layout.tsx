@@ -7,7 +7,6 @@ import { ContentProvider } from "@/contexts/content-context"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import WhatsAppButton from "@/components/whatsapp-button"
-import { DevTools } from "@/components/dev-tools"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -25,15 +24,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ContentProvider>
-          <LanguageProvider>
+        <LanguageProvider>
+          <ContentProvider>
             <Header />
             {children}
             <Footer />
             <WhatsAppButton />
-            <DevTools />
-          </LanguageProvider>
-        </ContentProvider>
+            {process.env.NODE_ENV === "development" && <div id="dev-tools-container"></div>}
+          </ContentProvider>
+        </LanguageProvider>
       </body>
     </html>
   )
