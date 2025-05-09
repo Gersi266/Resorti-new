@@ -2,7 +2,7 @@
   "hero": {
     "slides": [
       {
-        "image": "/images/hero-1.jpg",
+        "image": "public/images/hero section 1 slider.jpg",
         "title": "Welcome to Panorama Resort Elbasan",
         "subtitle": "A place to relax, experience, and enjoy unforgettable moments."
       },

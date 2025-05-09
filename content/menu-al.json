@@ -8,25 +8,25 @@
     "text": "Fotot janë ilustruese. Ne nuk pranojmë porosi jashtë menusë. Ju lutemi na informoni nëse keni ndonjë alergji ushqimore!"
   },
   "overview": {
-    "title": "Ekselencë Kulinare",
-    "description": "Në Paradise Resort, ne krenohemi me ofrimin e përvojave të jashtëzakonshme gastronomike. Kuzhinierët tanë të talentuar përdorin vetëm përbërësit më të freskët lokalë për të krijuar kënaqësi kulinare të paharrueshme që do të kënaqin edhe shijuesit më të kërkuar."
+    "title": "Shije tradicionale, përbërës të freskët dhe mikpritje e ngrohtë",
+    "description": "Në Panorama Resort, çdo pjatë ka një histori. Kuzhina jonë fokusohet në receta autentike shqiptare, të përgatitura me përbërës të freskët vendas — për t'ju ofruar një shije të traditës në çdo kafshatë. Nga pjatat e ngrohta e deri te specialitetet lokale, menuja jonë feston pasurinë e kuzhinës shqiptare në një ambient mikpritës dhe të këndshëm."
   },
   "dining": {
     "options": [
       {
-        "icon": "🍽️",
-        "title": "Kuzhinë e Sofistikuar",
-        "description": "Përjetoni kuzhinën gourmet në një ambient elegant me shërbim të përsosur."
-      },
-      {
-        "icon": "🌊",
-        "title": "Darkë në Plazh",
-        "description": "Shijoni ushqime të shijshme me këmbët në rërë dhe tingullin e valëve."
+        "icon": "👨🏻‍🍳",
+        "title": "Restoranti Kryesor",
+        "description": "Shijoni një përzgjedhje të gjerë gatimesh tradicionale shqiptare dhe ushqime shtëpie në një ambient të ngrohtë dhe mikpritës."
       },
       {
         "icon": "🍹",
-        "title": "Bar Koktejlesh",
-        "description": "Shijoni koktejle të përgatitura me mjeshtëri ndërsa shijoni pamje panoramike."
+        "title": "Bar & Lounge në Ballkon",
+        "description": "Pushoni me një pije ose një vakt të lehtë në ballkonin tonë me pamje — një vend i këndshëm për të marrë ajër të pastër dhe për të shijuar qytetin."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Darkë në Stil Familjar",
+        "description": "Shijoni kënaqësinë e vakteve të përbashkëta me porcione të bollshme dhe gatime tradicionale që bashkojnë njerëzit rreth tryezës."
       }
     ]
   },

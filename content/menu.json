@@ -8,25 +8,25 @@
     "text": "The photos are illustrative. We do not accept off-menu orders. Please let us know if you have any food allergies!"
   },
   "overview": {
-    "title": "Culinary Excellence",
-    "description": "At Paradise Resort, we pride ourselves on offering exceptional dining experiences. Our talented chefs use only the freshest local ingredients to create memorable culinary delights that will satisfy even the most discerning palates."
+    "title": "Traditional Flavors, Fresh Ingredients, Warm Hospitality",
+    "description": "At Panorama Resort, every dish tells a story. Our kitchen focuses on authentic Albanian recipes made with fresh, local ingredients — offering you a taste of tradition in every bite. From comforting classics to regional favorites, our menu celebrates the richness of Albanian cuisine in a cozy, welcoming setting."
   },
   "dining": {
     "options": [
       {
-        "icon": "🍽️",
-        "title": "Fine Dining",
-        "description": "Experience gourmet cuisine in an elegant setting with impeccable service."
-      },
-      {
-        "icon": "🌊",
-        "title": "Beachside Dining",
-        "description": "Enjoy delicious meals with your feet in the sand and the sound of waves."
+        "icon": "👨🏻‍🍳",
+        "title": "Main Restaurant",
+        "description": "Enjoy a variety of traditional Albanian dishes and comforting homemade meals served in a warm and welcoming setting."
       },
       {
         "icon": "🍹",
-        "title": "Cocktail Bar",
-        "description": "Sip on expertly crafted cocktails while enjoying panoramic views."
+        "title": "Balcony Bar & Lounge",
+        "description": "Take a break with a drink or light snack on our scenic balcony — a cozy spot to relax and enjoy fresh air with views over Elbasan."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Family-Style Dining",
+        "description": "Experience the joy of sharing meals, with rustic dishes and generous portions meant to bring people together around the table."
       }
     ]
   },
